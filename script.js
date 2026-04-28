@@ -8,6 +8,7 @@ const translations = {
     nav_about: "About",
     nav_visit: "Visit",
     nav_program: "Programs",
+    nav_protocols: "Protocols",
     nav_hukamnama: "Hukamnama",
     nav_seva: "Seva",
     nav_contact: "Contact",
@@ -101,6 +102,25 @@ const translations = {
     contact_email_label: "Email",
     contact_phone_label: "Phone",
     contact_map: "Open in Google Maps",
+    protocols_title: "Protocols and documents",
+    protocols_intro: "Here you can gather board minutes, meeting notes, annual meeting documents, and other important files in one place.",
+    protocols_back: "Back to start page",
+    protocols_section_title: "Available documents",
+    protocols_section_text: "Add new PDF, Word, or image files to the project and link them here when a protocol is ready.",
+    protocol_card_1_title: "Board meeting protocol",
+    protocol_card_1_meta: "Add date and file when the protocol is ready",
+    protocol_card_1_text: "Replace this text with a short summary and link the finished document here.",
+    protocol_card_1_link: "Add document link",
+    protocol_card_2_title: "Annual meeting documents",
+    protocol_card_2_meta: "Agenda, decisions, and signed protocol",
+    protocol_card_2_text: "Use this card for annual meeting material and collected attachments.",
+    protocol_card_2_link: "Open documents",
+    protocol_card_3_title: "Other important documents",
+    protocol_card_3_meta: "Policies, notices, and shared information",
+    protocol_card_3_text: "This area can also be used for notices and documents the sangat should be able to find easily.",
+    protocol_card_3_link: "View more",
+    protocol_note_title: "How to add a new protocol",
+    protocol_note_text: "Upload the file to this project, then replace one of the links on this page with the correct file path.",
     footer_brand: "Gurdwara Bebe Nanki Ji",
     footer_text: "\u00a9 2026 \u00b7 Waheguru Ji Ka Khalsa \u00b7 Waheguru Ji Ki Fateh",
     back_to_top: "Back to top"
@@ -114,6 +134,7 @@ const translations = {
     nav_about: "\u0a38\u0a3e\u0a21\u0a47 \u0a2c\u0a3e\u0a30\u0a47",
     nav_visit: "\u0a26\u0a30\u0a38\u0a3c\u0a28",
     nav_program: "\u0a2a\u0a4d\u0a30\u0a4b\u0a17\u0a30\u0a3e\u0a2e",
+    nav_protocols: "\u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32",
     nav_hukamnama: "\u0a39\u0a41\u0a15\u0a2e\u0a28\u0a3e\u0a2e\u0a3e",
     nav_seva: "\u0a38\u0a47\u0a35\u0a3e",
     nav_contact: "\u0a38\u0a70\u0a2a\u0a30\u0a15",
@@ -207,6 +228,25 @@ const translations = {
     contact_email_label: "\u0a08-\u0a2e\u0a47\u0a32",
     contact_phone_label: "\u0a2b\u0a4b\u0a28",
     contact_map: "Google Maps \u0a35\u0a3f\u0a71\u0a1a \u0a16\u0a4b\u0a32\u0a4d\u0a39\u0a4b",
+    protocols_title: "\u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32 \u0a05\u0a24\u0a47 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c",
+    protocols_intro: "\u0a07\u0a71\u0a25\u0a47 \u0a24\u0a41\u0a38\u0a40\u0a02 \u0a38\u0a4d\u0a1f\u0a40\u0a30\u0a40 \u0a2e\u0a40\u0a1f\u0a3f\u0a70\u0a17 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32, \u0a2e\u0a40\u0a1f\u0a3f\u0a70\u0a17 \u0a28\u0a4b\u0a1f\u0a38, \u0a38\u0a3e\u0a32\u0a3e\u0a28\u0a3e \u0a38\u0a2d\u0a3e \u0a26\u0a47 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c \u0a05\u0a24\u0a47 \u0a39\u0a4b\u0a30 \u0a2e\u0a39\u0a71\u0a24\u0a35\u0a2a\u0a42\u0a30\u0a28 \u0a2b\u0a3c\u0a3e\u0a08\u0a32\u0a3e\u0a02 \u0a07\u0a71\u0a15 \u0a25\u0a3e\u0a02 \u0a24\u0a47 \u0a30\u0a71\u0a16 \u0a38\u0a15\u0a26\u0a47 \u0a39\u0a4b\u0964",
+    protocols_back: "\u0a2e\u0a41\u0a71\u0a16 \u0a38\u0a2b\u0a3c\u0a47 \u0a24\u0a47 \u0a35\u0a3e\u0a2a\u0a38 \u0a1c\u0a3e\u0a13",
+    protocols_section_title: "\u0a09\u0a2a\u0a32\u0a2c\u0a27 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c",
+    protocols_section_text: "\u0a1c\u0a26\u0a4b\u0a02 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32 \u0a24\u0a3f\u0a06\u0a30 \u0a39\u0a4b \u0a1c\u0a3e\u0a35\u0a47, \u0a28\u0a35\u0a40\u0a02 PDF, Word \u0a1c\u0a3e\u0a02 \u0a24\u0a38\u0a35\u0a40\u0a30 \u0a2b\u0a3c\u0a3e\u0a08\u0a32\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a4b\u0a1c\u0a48\u0a15\u0a1f \u0a35\u0a3f\u0a71\u0a1a \u0a2a\u0a3e\u0a13 \u0a05\u0a24\u0a47 \u0a07\u0a71\u0a25\u0a47 \u0a32\u0a3f\u0a70\u0a15 \u0a15\u0a30\u0a4b\u0964",
+    protocol_card_1_title: "\u0a38\u0a4d\u0a1f\u0a40\u0a30\u0a40 \u0a2e\u0a40\u0a1f\u0a3f\u0a70\u0a17 \u0a26\u0a3e \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32",
+    protocol_card_1_meta: "\u0a1c\u0a26\u0a4b\u0a02 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32 \u0a24\u0a3f\u0a06\u0a30 \u0a39\u0a4b\u0a35\u0a47 \u0a24\u0a3e\u0a70 \u0a24\u0a3e\u0a30\u0a40\u0a16 \u0a05\u0a24\u0a47 \u0a2b\u0a3c\u0a3e\u0a08\u0a32 \u0a1c\u0a4b\u0a5c\u0a4b",
+    protocol_card_1_text: "\u0a07\u0a38 \u0a32\u0a47\u0a16 \u0a28\u0a42\u0a70 \u0a1b\u0a4b\u0a1f\u0a47 \u0a38\u0a3e\u0a30 \u0a28\u0a3e\u0a32 \u0a2c\u0a26\u0a32\u0a4b \u0a05\u0a24\u0a47 \u0a24\u0a3f\u0a06\u0a30 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c \u0a28\u0a42\u0a70 \u0a07\u0a71\u0a25\u0a47 \u0a32\u0a3f\u0a70\u0a15 \u0a15\u0a30\u0a4b\u0964",
+    protocol_card_1_link: "\u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c \u0a32\u0a3f\u0a70\u0a15 \u0a1c\u0a4b\u0a5c\u0a4b",
+    protocol_card_2_title: "\u0a38\u0a3e\u0a32\u0a3e\u0a28\u0a3e \u0a38\u0a2d\u0a3e \u0a26\u0a47 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c",
+    protocol_card_2_meta: "\u0a05\u0a1c\u0a48\u0a21\u0a3e, \u0a2b\u0a48\u0a38\u0a32\u0a47 \u0a05\u0a24\u0a47 \u0a39\u0a38\u0a24\u0a3e\u0a16\u0a38\u0a3c\u0a30\u0a3f\u0a24 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32",
+    protocol_card_2_text: "\u0a38\u0a3e\u0a32\u0a3e\u0a28\u0a3e \u0a38\u0a2d\u0a3e \u0a26\u0a47 \u0a2e\u0a1f\u0a40\u0a30\u0a40\u0a05\u0a32 \u0a05\u0a24\u0a47 \u0a38\u0a3e\u0a30\u0a47 \u0a28\u0a3e\u0a32 \u0a1c\u0a41\u0a5c\u0a47 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c \u0a07\u0a38 \u0a15\u0a3e\u0a30\u0a21 \u0a35\u0a3f\u0a71\u0a1a \u0a30\u0a71\u0a16\u0a4b\u0964",
+    protocol_card_2_link: "\u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c \u0a16\u0a4b\u0a32\u0a4d\u0a39\u0a4b",
+    protocol_card_3_title: "\u0a39\u0a4b\u0a30 \u0a2e\u0a39\u0a71\u0a24\u0a35\u0a2a\u0a42\u0a30\u0a28 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c",
+    protocol_card_3_meta: "\u0a28\u0a40\u0a24\u0a40\u0a06\u0a02, \u0a38\u0a42\u0a1a\u0a28\u0a3e\u0a35\u0a3e\u0a02 \u0a05\u0a24\u0a47 \u0a38\u0a3e\u0a02\u0a1d\u0a40 \u0a1c\u0a3e\u0a23\u0a15\u0a3e\u0a30\u0a40",
+    protocol_card_3_text: "\u0a07\u0a39 \u0a1c\u0a17\u0a4d\u0a39\u0a3e \u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c\u0a3e\u0a02 \u0a32\u0a08 \u0a35\u0a40 \u0a39\u0a48 \u0a1c\u0a4b \u0a38\u0a70\u0a17\u0a24 \u0a32\u0a08 \u0a06\u0a38\u0a3e\u0a28\u0a40 \u0a28\u0a3e\u0a32 \u0a2e\u0a3f\u0a32\u0a23\u0a47 \u0a1a\u0a3e\u0a39\u0a40\u0a26\u0a47 \u0a39\u0a28\u0964",
+    protocol_card_3_link: "\u0a39\u0a4b\u0a30 \u0a35\u0a47\u0a16\u0a4b",
+    protocol_note_title: "\u0a28\u0a35\u0a3e\u0a02 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32 \u0a15\u0a3f\u0a35\u0a47\u0a02 \u0a1c\u0a4b\u0a5c\u0a28\u0a3e \u0a39\u0a48",
+    protocol_note_text: "\u0a2b\u0a3c\u0a3e\u0a08\u0a32 \u0a28\u0a42\u0a70 \u0a07\u0a38 \u0a2a\u0a4d\u0a30\u0a4b\u0a1c\u0a48\u0a15\u0a1f \u0a35\u0a3f\u0a71\u0a1a \u0a05\u0a2a\u0a32\u0a4b\u0a21 \u0a15\u0a30\u0a4b, \u0a2b\u0a3f\u0a30 \u0a07\u0a38 \u0a38\u0a2b\u0a3c\u0a47 \u0a24\u0a47 \u0a15\u0a3f\u0a38\u0a47 \u0a35\u0a40 \u0a32\u0a3f\u0a70\u0a15 \u0a28\u0a42\u0a70 \u0a20\u0a40\u0a15 \u0a2b\u0a3c\u0a3e\u0a08\u0a32 \u0a2a\u0a25 \u0a28\u0a3e\u0a32 \u0a2c\u0a26\u0a32 \u0a26\u0a3f\u0a13\u0964",
     footer_brand: "\u0a17\u0a41\u0a30\u0a26\u0a41\u0a06\u0a30\u0a3e \u0a2c\u0a47\u0a2c\u0a47 \u0a28\u0a3e\u0a28\u0a15\u0a40 \u0a1c\u0a40",
     footer_text: "\u00a9 2026 \u00b7 Waheguru Ji Ka Khalsa \u00b7 Waheguru Ji Ki Fateh",
     back_to_top: "\u0a09\u0a71\u0a2a\u0a30 \u0a1c\u0a3e\u0a13"
@@ -274,17 +314,19 @@ const setLanguage = (lang) => {
   });
 };
 
-menuToggle.addEventListener("click", () => {
-  const isOpen = navLinks.classList.toggle("open");
-  menuToggle.setAttribute("aria-expanded", isOpen);
-});
-
-navLinks.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("open");
-    menuToggle.setAttribute("aria-expanded", "false");
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener("click", () => {
+    const isOpen = navLinks.classList.toggle("open");
+    menuToggle.setAttribute("aria-expanded", isOpen);
   });
-});
+
+  navLinks.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
 
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -292,23 +334,27 @@ languageButtons.forEach((button) => {
   });
 });
 
-const revealOnScroll = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("visible");
-      revealOnScroll.unobserve(entry.target);
-    }
+if (revealElements.length) {
+  const revealOnScroll = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        revealOnScroll.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.14 });
+
+  revealElements.forEach((element) => revealOnScroll.observe(element));
+}
+
+if (backToTop) {
+  window.addEventListener("scroll", () => {
+    backToTop.classList.toggle("show", window.scrollY > 550);
   });
-}, { threshold: 0.14 });
 
-revealElements.forEach((element) => revealOnScroll.observe(element));
-
-window.addEventListener("scroll", () => {
-  backToTop.classList.toggle("show", window.scrollY > 550);
-});
-
-backToTop.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
+  backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
 
 setLanguage(localStorage.getItem("preferredLanguage") || "sv");
