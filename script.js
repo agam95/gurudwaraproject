@@ -26,7 +26,7 @@ const translations = {
     hero_card_time: "10:00 - 14:00",
     hero_card_address: "Stockholm, Sweden",
     info_hukamnama_title: "Hukamnama",
-    info_hukamnama_text: "Daily at 09:00",
+    info_hukamnama_text: "New daily at 00:01",
     info_langar_title: "Langar",
     info_langar_text: "Free for everyone",
     info_seva_title: "Seva",
@@ -77,7 +77,7 @@ const translations = {
     hukamnama_gurmukhi: "\u0a74 \u0a38\u0a24\u0a3f \u0a28\u0a3e\u0a2e\u0a41 \u0a15\u0a30\u0a24\u0a3e \u0a2a\u0a41\u0a30\u0a16\u0a41",
     hukamnama_title: "Today's Hukamnama",
     hukamnama_quote: "\"Let the heart rest in gratitude, humility, and the courage to serve others.\"",
-    hukamnama_text: "You can place today's Hukamnama here or link to an external source for the full paath and translation.",
+    hukamnama_text: "A new Hukamnama reflection appears every day at 00:01. Read the full paath and translation on the external page.",
     hukamnama_cta: "Read more",
     seva_eyebrow: "Join In",
     seva_title: "Three simple ways to help",
@@ -130,6 +130,8 @@ const translations = {
     protocol_note_text: "Upload the file to this project, then replace one of the links on this page with the correct file path.",
     footer_brand: "Gurdwara Bebe Nanki Ji",
     footer_text: "\u00a9 2026 \u00b7 Waheguru Ji Ka Khalsa \u00b7 Waheguru Ji Ki Fateh",
+    footer_credit_prefix: "Website created by",
+    footer_credit_name: "Web Partner Studio",
     back_to_top: "Back to top"
   },
   pa: {
@@ -263,6 +265,8 @@ const translations = {
     protocol_note_text: "\u0a2b\u0a3c\u0a3e\u0a08\u0a32 \u0a28\u0a42\u0a70 \u0a07\u0a38 \u0a2a\u0a4d\u0a30\u0a4b\u0a1c\u0a48\u0a15\u0a1f \u0a35\u0a3f\u0a71\u0a1a \u0a05\u0a2a\u0a32\u0a4b\u0a21 \u0a15\u0a30\u0a4b, \u0a2b\u0a3f\u0a30 \u0a07\u0a38 \u0a38\u0a2b\u0a3c\u0a47 \u0a24\u0a47 \u0a15\u0a3f\u0a38\u0a47 \u0a35\u0a40 \u0a32\u0a3f\u0a70\u0a15 \u0a28\u0a42\u0a70 \u0a20\u0a40\u0a15 \u0a2b\u0a3c\u0a3e\u0a08\u0a32 \u0a2a\u0a25 \u0a28\u0a3e\u0a32 \u0a2c\u0a26\u0a32 \u0a26\u0a3f\u0a13\u0964",
     footer_brand: "\u0a17\u0a41\u0a30\u0a26\u0a41\u0a06\u0a30\u0a3e \u0a2c\u0a47\u0a2c\u0a47 \u0a28\u0a3e\u0a28\u0a15\u0a40 \u0a1c\u0a40",
     footer_text: "\u00a9 2026 \u00b7 Waheguru Ji Ka Khalsa \u00b7 Waheguru Ji Ki Fateh",
+    footer_credit_prefix: "\u0a35\u0a47\u0a2c\u0a38\u0a3e\u0a08\u0a1f \u0a2c\u0a23\u0a3e\u0a08 \u0a17\u0a08 \u0a39\u0a48",
+    footer_credit_name: "Web Partner Studio",
     back_to_top: "\u0a09\u0a71\u0a2a\u0a30 \u0a1c\u0a3e\u0a13"
   }
 };
@@ -283,7 +287,9 @@ const programListNode = document.querySelector("[data-program-list]");
 const documentListNode = document.querySelector("[data-document-list]");
 const externalHukamnamaUrl = "https://hs.sgpc.net/";
 
-const monthlyHukamnama = {
+let hukamnamaRefreshTimeoutId;
+
+const dailyHukamnama = {
   sv: [
     { quote: "\"Låt hjärtat börja året med ödmjukhet, bön och tacksamhet inför Guds vilja.\"", text: "Januaris Hukamnama-reflektion uppmuntrar till en lugn start på året med fokus på Naam, seva och inre disciplin." },
     { quote: "\"När sinnet mjuknar i simran blir även vardagens prövningar lättare att bära.\"", text: "Februaris Hukamnama-reflektion påminner om att hålla fast vid bön, tålamod och gemenskap under livets skiftningar." },
@@ -334,11 +340,24 @@ const decodeText = (text) => {
   return textarea.value;
 };
 
-const applyMonthlyHukamnama = (lang) => {
+const getHukamnamaRotationDate = () => {
+  const rotationDate = new Date();
+  rotationDate.setMinutes(rotationDate.getMinutes() - 1);
+  return rotationDate;
+};
+
+const getDayOfYear = (date) => {
+  const startOfYear = new Date(date.getFullYear(), 0, 1);
+  const millisecondsPerDay = 24 * 60 * 60 * 1000;
+  return Math.floor((date - startOfYear) / millisecondsPerDay);
+};
+
+const applyDailyHukamnama = (lang) => {
   const selectedLanguage = lang === "sv" ? "sv" : (translations[lang] ? lang : "sv");
-  const monthIndex = new Date().getMonth();
-  const entries = monthlyHukamnama[selectedLanguage] || monthlyHukamnama.sv;
-  const currentEntry = entries[monthIndex];
+  const entries = dailyHukamnama[selectedLanguage] || dailyHukamnama.sv;
+  const rotationDate = getHukamnamaRotationDate();
+  const entryIndex = getDayOfYear(rotationDate) % entries.length;
+  const currentEntry = entries[entryIndex];
 
   if (hukamnamaQuoteNode && currentEntry?.quote) {
     hukamnamaQuoteNode.textContent = currentEntry.quote;
@@ -353,6 +372,25 @@ const applyMonthlyHukamnama = (lang) => {
     hukamnamaLinkNode.target = "_blank";
     hukamnamaLinkNode.rel = "noreferrer";
   }
+};
+
+const scheduleDailyHukamnamaRefresh = () => {
+  if (hukamnamaRefreshTimeoutId) {
+    window.clearTimeout(hukamnamaRefreshTimeoutId);
+  }
+
+  const now = new Date();
+  const nextRefresh = new Date(now);
+  nextRefresh.setHours(0, 1, 0, 0);
+
+  if (now >= nextRefresh) {
+    nextRefresh.setDate(nextRefresh.getDate() + 1);
+  }
+
+  hukamnamaRefreshTimeoutId = window.setTimeout(() => {
+    applyDailyHukamnama(document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv");
+    scheduleDailyHukamnamaRefresh();
+  }, (nextRefresh.getTime() - now.getTime()) + 100);
 };
 
 const fetchContentFile = async (path) => {
@@ -513,7 +551,7 @@ const setLanguage = (lang) => {
     button.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 
-  applyMonthlyHukamnama(selectedLanguage);
+  applyDailyHukamnama(selectedLanguage);
 };
 
 if (menuToggle && navLinks) {
@@ -560,4 +598,5 @@ if (backToTop) {
 }
 
 setLanguage(localStorage.getItem("preferredLanguage") || "sv");
+scheduleDailyHukamnamaRefresh();
 loadEditableContent();

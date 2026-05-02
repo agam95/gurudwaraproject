@@ -800,6 +800,17 @@ blockquote {
   font-family: "Noto Sans Gurmukhi", sans-serif;
 }
 
+.footer-credit {
+  color: var(--maroon);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-credit:hover,
+.footer-credit:focus-visible {
+  text-decoration: underline;
+}
+
 .back-to-top {
   position: fixed;
   right: 20px;
