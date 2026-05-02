@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: agam95/gurudwaraproject
+  branch: main
+
+local_backend: true
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - label: "Startsida"
+    name: "homepage"
+    editor:
+      preview: false
+    files:
+      - label: "Veckoprogram"
+        name: "programs"
+        file: "data/programs.json"
+        format: "json"
+        fields:
+          - label: "Programkort"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.day}} - {{fields.title}}"
+            fields:
+              - { label: "Dag", name: "day", widget: "string" }
+              - { label: "Rubrik", name: "title", widget: "string" }
+              - { label: "Beskrivning", name: "description", widget: "text" }
+              - { label: "Tid", name: "time", widget: "string", required: false }
+              - { label: "Länk", name: "link_url", widget: "string", required: false }
+              - { label: "Länktext", name: "link_label", widget: "string", required: false }
+  - label: "Dokument"
+    name: "documents"
+    editor:
+      preview: false
+    files:
+      - label: "Protokoll och filer"
+        name: "document_library"
+        file: "data/documents.json"
+        format: "json"
+        fields:
+          - label: "Dokumentkort"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Övertext", name: "meta", widget: "string" }
+              - { label: "Rubrik", name: "title", widget: "string" }
+              - { label: "Beskrivning", name: "summary", widget: "text" }
+              - { label: "Knapptext", name: "link_label", widget: "string" }
+              - { label: "Fil", name: "file", widget: "file", required: false, allow_multiple: false }

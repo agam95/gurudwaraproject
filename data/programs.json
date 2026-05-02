@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "day": "Söndag",
+      "title": "Samlingsplats",
+      "description": "Kirtan, Katha, Ardas och gemensam Langar.",
+      "time": "Söndagar från kl 10",
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "day": "Söndagar",
+      "title": "Hemspråksundervisning för barn 6-16 år",
+      "description": "Punjabiundervisning för barn och ungdomar i en trygg och lärorik miljö.",
+      "time": "På söndagar",
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "day": "Söndagar",
+      "title": "Kirtan- och musikundervisning",
+      "description": "Undervisning i kirtan och musik för barn och ungdomar som vill lära sig och delta.",
+      "time": "På söndagar",
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "day": "Dagligen",
+      "title": "Hukamnama",
+      "description": "Dagens budskap från Guru Granth Sahib Ji.",
+      "time": "09:00",
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "day": "Efter behov",
+      "title": "Familjeceremonier",
+      "description": "Kontakta oss för Ardas, Akhand Path eller särskilda böner.",
+      "time": "",
+      "link_url": "#contact",
+      "link_label": "Kontakta oss"
+    }
+  ]
+}

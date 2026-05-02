@@ -4,7 +4,7 @@ const translations = {
     menu_label: "Open menu",
     language_label: "Language",
     brand_name: "Gurdwara Bebe Nanki Ji",
-    brand_location: "Kungsangen, Sweden",
+    brand_location: "Stockholm, Sweden",
     nav_about: "About",
     nav_visit: "Visit",
     nav_program: "Programs",
@@ -24,7 +24,7 @@ const translations = {
     hero_card_title: "Sunday Diwan",
     hero_card_text: "Kirtan, Katha, Ardas, and Langar",
     hero_card_time: "10:00 - 14:00",
-    hero_card_address: "Vickbergavagen 4, Kungsangen",
+    hero_card_address: "Stockholm, Sweden",
     info_hukamnama_title: "Hukamnama",
     info_hukamnama_text: "Daily at 09:00",
     info_langar_title: "Langar",
@@ -98,10 +98,17 @@ const translations = {
     contact_hours_label: "Opening hours",
     contact_hours_value: "Sundays at 10:00-14:00",
     contact_address_label: "Address",
-    contact_address_value: "Vickbergavagen 4\nKungsangen, Upplands-Bro",
+    contact_address_value: "Stockholm\nSweden",
     contact_email_label: "Email",
     contact_phone_label: "Phone",
-    contact_map: "Open in Google Maps",
+    contact_label_contact: "Contact",
+    contact_label_phone: "Phone",
+    contact_label_email: "Email",
+    contact_meeting_place: "Sikh gathering place",
+    contact_org_label: "Organization number",
+    contact_org_value: "802409-4719",
+    protocols_preview_eyebrow: "Documents",
+    protocols_archive_eyebrow: "Archive",
     protocols_title: "Protocols and documents",
     protocols_intro: "Here you can gather board minutes, meeting notes, annual meeting documents, and other important files in one place.",
     protocols_back: "Back to start page",
@@ -130,7 +137,7 @@ const translations = {
     menu_label: "\u0a2e\u0a48\u0a28\u0a42 \u0a16\u0a4b\u0a32\u0a4d\u0a39\u0a4b",
     language_label: "\u0a2d\u0a3e\u0a36\u0a3e",
     brand_name: "\u0a17\u0a41\u0a30\u0a26\u0a41\u0a06\u0a30\u0a3e \u0a2c\u0a47\u0a2c\u0a47 \u0a28\u0a3e\u0a28\u0a15\u0a40 \u0a1c\u0a40",
-    brand_location: "Kungsangen, Sweden",
+    brand_location: "\u0a38\u0a1f\u0a4b\u0a15\u0a39\u0a4b\u0a2e, \u0a38\u0a35\u0a40\u0a21\u0a28",
     nav_about: "\u0a38\u0a3e\u0a21\u0a47 \u0a2c\u0a3e\u0a30\u0a47",
     nav_visit: "\u0a26\u0a30\u0a38\u0a3c\u0a28",
     nav_program: "\u0a2a\u0a4d\u0a30\u0a4b\u0a17\u0a30\u0a3e\u0a2e",
@@ -150,7 +157,7 @@ const translations = {
     hero_card_title: "\u0a10\u0a24\u0a35\u0a3e\u0a30 \u0a26\u0a40 \u0a26\u0a40\u0a35\u0a3e\u0a28",
     hero_card_text: "\u0a15\u0a40\u0a30\u0a24\u0a28, \u0a15\u0a25\u0a3e, \u0a05\u0a30\u0a26\u0a3e\u0a38 \u0a05\u0a24\u0a47 \u0a32\u0a70\u0a17\u0a30",
     hero_card_time: "10:00 - 14:00",
-    hero_card_address: "Vickbergavagen 4, Kungsangen",
+    hero_card_address: "\u0a38\u0a1f\u0a4b\u0a15\u0a39\u0a4b\u0a2e, \u0a38\u0a35\u0a40\u0a21\u0a28",
     info_hukamnama_title: "\u0a39\u0a41\u0a15\u0a2e\u0a28\u0a3e\u0a2e\u0a3e",
     info_hukamnama_text: "\u0a39\u0a30 \u0a30\u0a4b\u0a1c\u0a3c 09:00 \u0a35\u0a1c\u0a47",
     info_langar_title: "\u0a32\u0a70\u0a17\u0a30",
@@ -224,10 +231,17 @@ const translations = {
     contact_hours_label: "\u0a16\u0a41\u0a71\u0a32\u0a4d\u0a39\u0a23 \u0a26\u0a47 \u0a38\u0a2e\u0a47\u0a02",
     contact_hours_value: "\u0a10\u0a24\u0a35\u0a3e\u0a30 10:00-14:00",
     contact_address_label: "\u0a2a\u0a24\u0a3e",
-    contact_address_value: "Vickbergavagen 4\nKungsangen, Upplands-Bro",
+    contact_address_value: "\u0a38\u0a1f\u0a4b\u0a15\u0a39\u0a4b\u0a2e\n\u0a38\u0a35\u0a40\u0a21\u0a28",
     contact_email_label: "\u0a08-\u0a2e\u0a47\u0a32",
     contact_phone_label: "\u0a2b\u0a4b\u0a28",
-    contact_map: "Google Maps \u0a35\u0a3f\u0a71\u0a1a \u0a16\u0a4b\u0a32\u0a4d\u0a39\u0a4b",
+    contact_label_contact: "\u0a38\u0a70\u0a2a\u0a30\u0a15",
+    contact_label_phone: "\u0a2b\u0a4b\u0a28",
+    contact_label_email: "\u0a08-\u0a2e\u0a47\u0a32",
+    contact_meeting_place: "\u0a38\u0a3f\u0a71\u0a16\u0a3e\u0a02 \u0a26\u0a3e \u0a2e\u0a3f\u0a32\u0a23 \u0a38\u0a25\u0a3e\u0a28",
+    contact_org_label: "\u0a38\u0a70\u0a17\u0a20\u0a28 \u0a28\u0a70\u0a2c\u0a30",
+    contact_org_value: "802409-4719",
+    protocols_preview_eyebrow: "\u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c",
+    protocols_archive_eyebrow: "\u0a06\u0a30\u0a15\u0a3e\u0a08\u0a35",
     protocols_title: "\u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32 \u0a05\u0a24\u0a47 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c",
     protocols_intro: "\u0a07\u0a71\u0a25\u0a47 \u0a24\u0a41\u0a38\u0a40\u0a02 \u0a38\u0a4d\u0a1f\u0a40\u0a30\u0a40 \u0a2e\u0a40\u0a1f\u0a3f\u0a70\u0a17 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a15\u0a4b\u0a32, \u0a2e\u0a40\u0a1f\u0a3f\u0a70\u0a17 \u0a28\u0a4b\u0a1f\u0a38, \u0a38\u0a3e\u0a32\u0a3e\u0a28\u0a3e \u0a38\u0a2d\u0a3e \u0a26\u0a47 \u0a26\u0a38\u0a24\u0a3e\u0a35\u0a47\u0a1c\u0a3c \u0a05\u0a24\u0a47 \u0a39\u0a4b\u0a30 \u0a2e\u0a39\u0a71\u0a24\u0a35\u0a2a\u0a42\u0a30\u0a28 \u0a2b\u0a3c\u0a3e\u0a08\u0a32\u0a3e\u0a02 \u0a07\u0a71\u0a15 \u0a25\u0a3e\u0a02 \u0a24\u0a47 \u0a30\u0a71\u0a16 \u0a38\u0a15\u0a26\u0a47 \u0a39\u0a4b\u0964",
     protocols_back: "\u0a2e\u0a41\u0a71\u0a16 \u0a38\u0a2b\u0a3c\u0a47 \u0a24\u0a47 \u0a35\u0a3e\u0a2a\u0a38 \u0a1c\u0a3e\u0a13",
@@ -262,11 +276,197 @@ const textNodes = document.querySelectorAll("[data-i18n]");
 const attributeNodes = document.querySelectorAll("[data-i18n-attr]");
 const defaultTexts = {};
 const defaultAttributes = {};
+const hukamnamaQuoteNode = document.querySelector('[data-i18n="hukamnama_quote"]');
+const hukamnamaTextNode = document.querySelector('[data-i18n="hukamnama_text"]');
+const hukamnamaLinkNode = document.querySelector('[data-i18n="hukamnama_cta"]');
+const programListNode = document.querySelector("[data-program-list]");
+const documentListNode = document.querySelector("[data-document-list]");
+const externalHukamnamaUrl = "https://hs.sgpc.net/";
+
+const monthlyHukamnama = {
+  sv: [
+    { quote: "\"Låt hjärtat börja året med ödmjukhet, bön och tacksamhet inför Guds vilja.\"", text: "Januaris Hukamnama-reflektion uppmuntrar till en lugn start på året med fokus på Naam, seva och inre disciplin." },
+    { quote: "\"När sinnet mjuknar i simran blir även vardagens prövningar lättare att bära.\"", text: "Februaris Hukamnama-reflektion påminner om att hålla fast vid bön, tålamod och gemenskap under livets skiftningar." },
+    { quote: "\"Sök styrka i Gurbani och låt dina handlingar bära frukt i vänlighet.\"", text: "Mars månads Hukamnama lyfter vikten av att låta andlighet synas i hur vi möter andra varje dag." },
+    { quote: "\"Den som minns Guds namn med kärlek finner ro även mitt i oro.\"", text: "Aprils Hukamnama-reflektion handlar om att finna stillhet genom Naam och att leva med tillit." },
+    { quote: "\"Låt tjänandet vara uppriktigt, och låt varje steg bäras av medkänsla.\"", text: "Maj månads Hukamnama betonar seva, omsorg och ett öppet hjärta i mötet med sangat och besökare." },
+    { quote: "\"När vi delar bröd, tid och omtanke växer gemenskapen starkare.\"", text: "Junis Hukamnama-reflektion fokuserar på langar, jämlikhet och hur små handlingar bygger stor värme." },
+    { quote: "\"Ödmjukhet gör vägen klarare än stolthet någonsin kan göra.\"", text: "Juli månads Hukamnama uppmuntrar till enkelhet, tålamod och att låta egot stå tillbaka." },
+    { quote: "\"Det rena hjärtat finner vägledning där det oroliga sinnet bara ser hinder.\"", text: "Augustis Hukamnama-reflektion påminner om att söka klarhet genom bön, eftertanke och goda sällskap." },
+    { quote: "\"Låt varje dag bli en möjlighet att minnas, lyssna och tjäna.\"", text: "September månads Hukamnama lyfter rytmen i ett andligt liv där simran och seva får plats i vardagen." },
+    { quote: "\"Håll fast vid sanningen även när vägen känns lång.\"", text: "Oktobers Hukamnama-reflektion handlar om uthållighet, trofasthet och modet att leva rätt." },
+    { quote: "\"Tacksamhet förvandlar det lilla till en rik gåva.\"", text: "November månads Hukamnama uppmuntrar till tacksamhet, delande och ett hjärta som böjs inför Gud." },
+    { quote: "\"Avsluta året med fred i sinnet och hopp inför det som kommer.\"", text: "Decembers Hukamnama-reflektion samlar året i bön, stillhet och en önskan om fortsatt vägledning." }
+  ],
+  en: [
+    { quote: "\"Let the year begin with humility, prayer, and gratitude for the Divine will.\"", text: "January's Hukamnama reflection invites a calm beginning to the year, centered on Naam, seva, and inner discipline." },
+    { quote: "\"When the mind softens in simran, even daily struggles become lighter to carry.\"", text: "February's Hukamnama reflection reminds us to hold on to prayer, patience, and community through life's changes." },
+    { quote: "\"Seek strength in Gurbani, and let your actions bear fruit in kindness.\"", text: "March's Hukamnama reflection highlights letting spirituality become visible in the way we meet others each day." },
+    { quote: "\"One who remembers the Divine Name with love finds peace even in unrest.\"", text: "April's Hukamnama reflection is about finding stillness through Naam and living with trust." },
+    { quote: "\"Let service be sincere, and let every step be carried by compassion.\"", text: "May's Hukamnama reflection emphasizes seva, care, and an open heart in meeting the sangat and visitors." },
+    { quote: "\"When we share bread, time, and care, the community grows stronger.\"", text: "June's Hukamnama reflection focuses on langar, equality, and how small acts build deep warmth." },
+    { quote: "\"Humility makes the path clearer than pride ever can.\"", text: "July's Hukamnama reflection encourages simplicity, patience, and setting the ego aside." },
+    { quote: "\"The pure heart finds guidance where the restless mind sees only obstacles.\"", text: "August's Hukamnama reflection reminds us to seek clarity through prayer, reflection, and good company." },
+    { quote: "\"Let every day become an opportunity to remember, listen, and serve.\"", text: "September's Hukamnama reflection highlights a spiritual rhythm where simran and seva belong in everyday life." },
+    { quote: "\"Hold to the truth even when the road feels long.\"", text: "October's Hukamnama reflection is about perseverance, faithfulness, and the courage to live rightly." },
+    { quote: "\"Gratitude turns even small things into rich gifts.\"", text: "November's Hukamnama reflection encourages gratitude, sharing, and a heart bowed before God." },
+    { quote: "\"End the year with peace in the mind and hope for what is ahead.\"", text: "December's Hukamnama reflection gathers the year in prayer, stillness, and a wish for continued guidance." }
+  ],
+  pa: [
+    { quote: "\"ਨਵੇਂ ਸਾਲ ਦੀ ਸ਼ੁਰੂਆਤ ਨਿਮਰਤਾ, ਅਰਦਾਸ ਅਤੇ ਰੱਬੀ ਰਜ਼ਾ ਦੇ ਸ਼ੁਕਰਾਨੇ ਨਾਲ ਕਰੋ।\"", text: "ਜਨਵਰੀ ਦਾ ਹੁਕਮਨਾਮਾ ਮਨ ਨੂੰ ਨਾਮ, ਸੇਵਾ ਅਤੇ ਅੰਦਰੂਨੀ ਅਨੁਸ਼ਾਸਨ ਵੱਲ ਲੈ ਜਾਂਦਾ ਹੈ।" },
+    { quote: "\"ਜਦੋਂ ਮਨ ਸਿਮਰਨ ਵਿੱਚ ਨਰਮ ਹੁੰਦਾ ਹੈ ਤਾਂ ਰੋਜ਼ਾਨਾ ਦੀਆਂ ਔਖਾਈਆਂ ਵੀ ਹੌਲੀਆਂ ਲੱਗਦੀਆਂ ਹਨ।\"", text: "ਫਰਵਰੀ ਦਾ ਹੁਕਮਨਾਮਾ ਜ਼ਿੰਦਗੀ ਦੇ ਬਦਲਾਵਾਂ ਵਿੱਚ ਅਰਦਾਸ, ਧੀਰਜ ਅਤੇ ਸੰਗਤ ਨਾਲ ਜੁੜੇ ਰਹਿਣ ਦੀ ਯਾਦ ਦਿਵਾਂਦਾ ਹੈ।" },
+    { quote: "\"ਗੁਰਬਾਣੀ ਤੋਂ ਤਾਕਤ ਲਵੋ ਅਤੇ ਆਪਣੇ ਕਰਮਾਂ ਵਿੱਚ ਮਿਹਰ ਤੇ ਦਇਆ ਵਿਖਾਓ।\"", text: "ਮਾਰਚ ਦਾ ਹੁਕਮਨਾਮਾ ਦੱਸਦਾ ਹੈ ਕਿ ਆਤਮਿਕਤਾ ਰੋਜ਼ਾਨਾ ਦੇ ਵਤੀਰੇ ਵਿੱਚ ਵੀ ਨਜ਼ਰ ਆਉਣੀ ਚਾਹੀਦੀ ਹੈ।" },
+    { quote: "\"ਜੋ ਪ੍ਰੇਮ ਨਾਲ ਨਾਮ ਸਿਮਰਦਾ ਹੈ ਉਹ ਬੇਚੈਨੀ ਵਿਚ ਵੀ ਸ਼ਾਂਤੀ ਲੱਭ ਲੈਂਦਾ ਹੈ।\"", text: "ਅਪ੍ਰੈਲ ਦਾ ਹੁਕਮਨਾਮਾ ਨਾਮ ਰਾਹੀਂ ਅੰਦਰਲੀ ਠੰਢਕ ਅਤੇ ਭਰੋਸੇ ਨਾਲ ਜੀਊਣ ਦੀ ਸਿੱਖਿਆ ਦਿੰਦਾ ਹੈ।" },
+    { quote: "\"ਸੇਵਾ ਸੱਚੀ ਹੋਵੇ ਅਤੇ ਹਰ ਕਦਮ ਦਇਆ ਨਾਲ ਭਰਿਆ ਹੋਵੇ।\"", text: "ਮਈ ਦਾ ਹੁਕਮਨਾਮਾ ਸੇਵਾ, ਸੰਭਾਲ ਅਤੇ ਸੰਗਤ ਨਾਲ ਖੁੱਲ੍ਹੇ ਦਿਲ ਨਾਲ ਮਿਲਣ ਉੱਤੇ ਜ਼ੋਰ ਦਿੰਦਾ ਹੈ।" },
+    { quote: "\"ਜਦੋਂ ਅਸੀਂ ਰੋਟੀ, ਸਮਾਂ ਅਤੇ ਪਿਆਰ ਸਾਂਝਾ ਕਰਦੇ ਹਾਂ ਤਾਂ ਸੰਗਤ ਹੋਰ ਮਜ਼ਬੂਤ ਹੁੰਦੀ ਹੈ।\"", text: "ਜੂਨ ਦਾ ਹੁਕਮਨਾਮਾ ਲੰਗਰ, ਬਰਾਬਰੀ ਅਤੇ ਛੋਟੇ ਕੰਮਾਂ ਦੀ ਵੱਡੀ ਗਰਮੀ ਬਾਰੇ ਹੈ।" },
+    { quote: "\"ਨਿਮਰਤਾ ਰਾਹ ਨੂੰ ਉਤਨਾ ਸਾਫ਼ ਕਰਦੀ ਹੈ ਜਿੰਨਾ ਅਹੰਕਾਰ ਕਦੇ ਨਹੀਂ ਕਰ ਸਕਦਾ।\"", text: "ਜੁਲਾਈ ਦਾ ਹੁਕਮਨਾਮਾ ਸਾਦਗੀ, ਧੀਰਜ ਅਤੇ ਹਉਮੈ ਨੂੰ ਪਿੱਛੇ ਰੱਖਣ ਦੀ ਪ੍ਰੇਰਣਾ ਦਿੰਦਾ ਹੈ।" },
+    { quote: "\"ਸਾਫ਼ ਦਿਲ ਉਥੇ ਰਾਹ ਲੱਭਦਾ ਹੈ ਜਿੱਥੇ ਚੰਚਲ ਮਨ ਸਿਰਫ਼ ਰੁਕਾਵਟਾਂ ਵੇਖਦਾ ਹੈ।\"", text: "ਅਗਸਤ ਦਾ ਹੁਕਮਨਾਮਾ ਅਰਦਾਸ, ਵਿਚਾਰ ਅਤੇ ਚੰਗੀ ਸੰਗਤ ਰਾਹੀਂ ਸਪਸ਼ਟਤਾ ਲੱਭਣ ਦੀ ਯਾਦ ਦਿਵਾਂਦਾ ਹੈ।" },
+    { quote: "\"ਹਰ ਦਿਨ ਨੂੰ ਯਾਦ ਕਰਨ, ਸੁਣਨ ਅਤੇ ਸੇਵਾ ਕਰਨ ਦਾ ਮੌਕਾ ਬਣਾਓ।\"", text: "ਸਤੰਬਰ ਦਾ ਹੁਕਮਨਾਮਾ ਦੱਸਦਾ ਹੈ ਕਿ ਸਿਮਰਨ ਅਤੇ ਸੇਵਾ ਰੋਜ਼ਾਨਾ ਦੀ ਜ਼ਿੰਦਗੀ ਦਾ ਹਿੱਸਾ ਬਣ ਸਕਦੇ ਹਨ।" },
+    { quote: "\"ਸੱਚ ਨੂੰ ਫੜੇ ਰੱਖੋ ਭਾਵੇਂ ਰਾਹ ਲੰਮਾ ਹੀ ਕਿਉਂ ਨਾ ਲੱਗੇ।\"", text: "ਅਕਤੂਬਰ ਦਾ ਹੁਕਮਨਾਮਾ ਡਟੇ ਰਹਿਣ, ਵਿਸ਼ਵਾਸ ਅਤੇ ਸਹੀ ਜੀਵਨ ਦੇ ਹੁੰਸਲੇ ਬਾਰੇ ਹੈ।" },
+    { quote: "\"ਸ਼ੁਕਰਾਨਾ ਛੋਟੀ ਚੀਜ਼ ਨੂੰ ਵੀ ਵੱਡੀ ਦਾਤ ਬਣਾ ਦਿੰਦਾ ਹੈ।\"", text: "ਨਵੰਬਰ ਦਾ ਹੁਕਮਨਾਮਾ ਸ਼ੁਕਰਾਨੇ, ਸਾਂਝ ਅਤੇ ਰੱਬ ਅੱਗੇ ਨਿਵੇ ਦਿਲ ਦੀ ਪ੍ਰੇਰਣਾ ਦਿੰਦਾ ਹੈ।" },
+    { quote: "\"ਸਾਲ ਨੂੰ ਮਨ ਦੀ ਸ਼ਾਂਤੀ ਅਤੇ ਅੱਗੇ ਲਈ ਆਸ ਨਾਲ ਸਮਾਪਤ ਕਰੋ।\"", text: "ਦਸੰਬਰ ਦਾ ਹੁਕਮਨਾਮਾ ਸਾਲ ਨੂੰ ਅਰਦਾਸ, ਸ਼ਾਂਤੀ ਅਤੇ ਅਗਲੀ ਰਹਿਨੁਮਾਈ ਦੀ ਅਰਜ਼ੀ ਨਾਲ ਜੋੜਦਾ ਹੈ।" }
+  ]
+};
 
 const decodeText = (text) => {
   const textarea = document.createElement("textarea");
   textarea.innerHTML = text;
   return textarea.value;
+};
+
+const applyMonthlyHukamnama = (lang) => {
+  const selectedLanguage = lang === "sv" ? "sv" : (translations[lang] ? lang : "sv");
+  const monthIndex = new Date().getMonth();
+  const entries = monthlyHukamnama[selectedLanguage] || monthlyHukamnama.sv;
+  const currentEntry = entries[monthIndex];
+
+  if (hukamnamaQuoteNode && currentEntry?.quote) {
+    hukamnamaQuoteNode.textContent = currentEntry.quote;
+  }
+
+  if (hukamnamaTextNode && currentEntry?.text) {
+    hukamnamaTextNode.textContent = currentEntry.text;
+  }
+
+  if (hukamnamaLinkNode) {
+    hukamnamaLinkNode.href = externalHukamnamaUrl;
+    hukamnamaLinkNode.target = "_blank";
+    hukamnamaLinkNode.rel = "noreferrer";
+  }
+};
+
+const fetchContentFile = async (path) => {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Could not load ${path}`);
+  }
+
+  return response.json();
+};
+
+const renderPrograms = (items) => {
+  if (!programListNode || !Array.isArray(items)) {
+    return;
+  }
+
+  programListNode.innerHTML = "";
+
+  items.forEach((item) => {
+    const article = document.createElement("article");
+    article.className = "program-card";
+
+    const day = document.createElement("span");
+    day.textContent = item.day || "";
+
+    const title = document.createElement("h3");
+    title.textContent = item.title || "";
+
+    const description = document.createElement("p");
+    description.textContent = item.description || "";
+
+    article.append(day, title, description);
+
+    if (item.link_url && item.link_label) {
+      const link = document.createElement("a");
+      link.className = "program-link";
+      link.href = item.link_url;
+
+      const strong = document.createElement("strong");
+      strong.textContent = item.link_label;
+      link.appendChild(strong);
+      article.appendChild(link);
+    } else if (item.time) {
+      const strong = document.createElement("strong");
+      strong.textContent = item.time;
+      article.appendChild(strong);
+    }
+
+    programListNode.appendChild(article);
+  });
+};
+
+const renderDocuments = (items) => {
+  if (!documentListNode || !Array.isArray(items)) {
+    return;
+  }
+
+  documentListNode.innerHTML = "";
+
+  items.forEach((item) => {
+    const article = document.createElement("article");
+    article.className = "protocol-card";
+
+    const meta = document.createElement("span");
+    meta.className = "protocol-meta";
+    meta.textContent = item.meta || "";
+
+    const title = document.createElement("h3");
+    title.textContent = item.title || "";
+
+    const summary = document.createElement("p");
+    summary.textContent = item.summary || "";
+
+    article.append(meta, title, summary);
+
+    if (item.file) {
+      const link = document.createElement("a");
+      link.className = "protocol-link";
+      link.href = item.file;
+      link.textContent = item.link_label || "Öppna fil";
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      article.appendChild(link);
+    } else {
+      const placeholder = document.createElement("span");
+      placeholder.className = "protocol-link";
+      placeholder.textContent = item.link_label || "Ingen fil uppladdad ännu";
+      article.appendChild(placeholder);
+    }
+
+    documentListNode.appendChild(article);
+  });
+};
+
+const loadEditableContent = async () => {
+  try {
+    const requests = [];
+
+    if (programListNode) {
+      requests.push(
+        fetchContentFile("data/programs.json").then((data) => renderPrograms(data.items))
+      );
+    }
+
+    if (documentListNode) {
+      requests.push(
+        fetchContentFile("data/documents.json").then((data) => renderDocuments(data.items))
+      );
+    }
+
+    await Promise.all(requests);
+  } catch (error) {
+    console.error("Failed to load editable content.", error);
+  }
 };
 
 textNodes.forEach((node) => {
@@ -312,6 +512,8 @@ const setLanguage = (lang) => {
     button.classList.toggle("active", isActive);
     button.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
+
+  applyMonthlyHukamnama(selectedLanguage);
 };
 
 if (menuToggle && navLinks) {
@@ -358,3 +560,4 @@ if (backToTop) {
 }
 
 setLanguage(localStorage.getItem("preferredLanguage") || "sv");
+loadEditableContent();

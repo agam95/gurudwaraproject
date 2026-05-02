@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "meta": "Lägg till datum och fil när protokollet är klart",
+      "title": "Styrelsemötesprotokoll",
+      "summary": "Byt ut den här texten mot en kort sammanfattning och länka det färdiga dokumentet här.",
+      "link_label": "Lägg till dokumentlänk",
+      "file": ""
+    },
+    {
+      "meta": "Dagordning, beslut och signerat protokoll",
+      "title": "Årsmötesdokument",
+      "summary": "Använd det här kortet för årsmötesmaterial och samlade bilagor.",
+      "link_label": "Öppna dokument",
+      "file": ""
+    },
+    {
+      "meta": "Policyer, meddelanden och delad information",
+      "title": "Övriga viktiga dokument",
+      "summary": "Den här ytan kan även användas för utskick och dokument som sangaten enkelt ska kunna hitta.",
+      "link_label": "Visa mer",
+      "file": ""
+    }
+  ]
+}
