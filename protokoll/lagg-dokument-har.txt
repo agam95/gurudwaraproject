@@ -1,9 +1,0 @@
-Lagg protokollfiler har.
-
-Exempel:
-- styrelsemote-2026-05-12.pdf
-- arsmote-2026-protokoll.pdf
-- bilaga-budget-2026.docx
-
-Nar en fil ar uppladdad kan du byta ut en lank i protokoll.html
-sa att den pekar pa ratt dokument.

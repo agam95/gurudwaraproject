@@ -318,12 +318,6 @@ const editableContent = {
 
 let hukamnamaRefreshTimeoutId;
 
-const decodeText = (text) => {
-  const textarea = document.createElement("textarea");
-  textarea.innerHTML = text;
-  return textarea.value;
-};
-
 const getSelectedLanguage = (lang) => (lang === "sv" ? "sv" : (translations[lang] ? lang : "sv"));
 
 const getPageKey = () => {
@@ -342,8 +336,6 @@ const getLocalizedField = (value, lang, fallback = "sv") => {
 
   return "";
 };
-
-const getFallbackCollection = (lang, key) => fallbackContent[getSelectedLanguage(lang)][key] || fallbackContent.sv[key] || [];
 
 const updateDocumentTitle = (lang) => {
   const selectedLanguage = getSelectedLanguage(lang);
@@ -435,7 +427,7 @@ const renderPrograms = (lang) => {
   }
 
   const selectedLanguage = getSelectedLanguage(lang);
-  const items = editableContent.programs.length ? editableContent.programs : getFallbackCollection(selectedLanguage, "programs");
+  const items = editableContent.programs.length ? editableContent.programs : fallbackContent[selectedLanguage].programs || fallbackContent.sv.programs;
 
   programListNode.innerHTML = "";
 
@@ -483,7 +475,7 @@ const renderDocuments = (lang) => {
   }
 
   const selectedLanguage = getSelectedLanguage(lang);
-  const items = editableContent.documents.length ? editableContent.documents : getFallbackCollection(selectedLanguage, "documents");
+  const items = editableContent.documents.length ? editableContent.documents : fallbackContent[selectedLanguage].documents || fallbackContent.sv.documents;
 
   documentListNode.innerHTML = "";
 
@@ -593,7 +585,7 @@ const setLanguage = (lang) => {
   textNodes.forEach((node) => {
     const key = node.dataset.i18n;
     if (locale[key]) {
-      node.textContent = decodeText(locale[key]);
+      node.textContent = locale[key];
     }
   });
 
@@ -603,7 +595,7 @@ const setLanguage = (lang) => {
       const [attribute, key] = mapping.split(":").map((part) => part.trim());
       const value = selectedLanguage === "sv" ? defaultAttributes[key] : locale[key];
       if (attribute && key && value) {
-        node.setAttribute(attribute, decodeText(value));
+        node.setAttribute(attribute, value);
       }
     });
   });

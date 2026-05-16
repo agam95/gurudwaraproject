@@ -783,8 +783,6 @@ blockquote {
   }
 }
 
-.full { width: 100%; }
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -798,26 +796,6 @@ blockquote {
 .footer p {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
-}
-
-.footer-social {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-  padding: 10px 18px;
-  border-radius: 999px;
-  color: var(--maroon);
-  background: rgba(143, 75, 16, 0.08);
-  border: 1px solid rgba(143, 75, 16, 0.18);
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.footer-social svg {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
 }
 
 .footer span {
