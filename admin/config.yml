@@ -14,7 +14,7 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Veckoprogram"
+      - label: "Program och aktiviteter"
         name: "programs"
         file: "data/programs.json"
         format: "json"
@@ -22,15 +22,48 @@ collections:
           - label: "Programkort"
             name: "items"
             widget: "list"
-            summary: "{{fields.day}} - {{fields.title}}"
+            summary: "{{fields.title.sv}}"
             fields:
-              - { label: "Dag", name: "day", widget: "string" }
-              - { label: "Rubrik", name: "title", widget: "string" }
-              - { label: "Beskrivning", name: "description", widget: "text" }
-              - { label: "Tid", name: "time", widget: "string", required: false }
-              - { label: "Länk", name: "link_url", widget: "string", required: false }
-              - { label: "Länktext", name: "link_label", widget: "string", required: false }
-  - label: "Dokument"
+              - label: "Dag"
+                name: "day"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string" }
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Punjabi", name: "pa", widget: "string" }
+              - label: "Rubrik"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string" }
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Punjabi", name: "pa", widget: "string" }
+              - label: "Beskrivning"
+                name: "description"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "text" }
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Punjabi", name: "pa", widget: "text" }
+              - label: "Tid"
+                name: "time"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string", required: false }
+                  - { label: "English", name: "en", widget: "string", required: false }
+                  - { label: "Punjabi", name: "pa", widget: "string", required: false }
+              - { label: "Länk URL", name: "link_url", widget: "string", required: false }
+              - label: "Länktext"
+                name: "link_label"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string", required: false }
+                  - { label: "English", name: "en", widget: "string", required: false }
+                  - { label: "Punjabi", name: "pa", widget: "string", required: false }
+
+  - label: "Protokoll"
     name: "documents"
     editor:
       preview: false
@@ -43,10 +76,38 @@ collections:
           - label: "Dokumentkort"
             name: "items"
             widget: "list"
-            summary: "{{fields.title}}"
+            summary: "{{fields.title.sv}}"
             fields:
-              - { label: "Övertext", name: "meta", widget: "string" }
-              - { label: "Rubrik", name: "title", widget: "string" }
-              - { label: "Beskrivning", name: "summary", widget: "text" }
-              - { label: "Knapptext", name: "link_label", widget: "string" }
-              - { label: "Fil", name: "file", widget: "file", required: false, allow_multiple: false }
+              - label: "Övertext"
+                name: "meta"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string" }
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Punjabi", name: "pa", widget: "string" }
+              - label: "Rubrik"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string" }
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Punjabi", name: "pa", widget: "string" }
+              - label: "Beskrivning"
+                name: "summary"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "text" }
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Punjabi", name: "pa", widget: "text" }
+              - label: "Knapptext"
+                name: "link_label"
+                widget: "object"
+                fields:
+                  - { label: "Svenska", name: "sv", widget: "string" }
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Punjabi", name: "pa", widget: "string" }
+              - label: "Fil"
+                name: "file"
+                widget: "file"
+                required: false
+                allow_multiple: false

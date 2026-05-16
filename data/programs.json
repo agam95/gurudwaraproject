@@ -1,44 +1,144 @@
 {
   "items": [
     {
-      "day": "Söndag",
-      "title": "Samlingsplats",
-      "description": "Kirtan, Katha, Ardas och gemensam Langar.",
-      "time": "Söndagar från kl 10",
+      "day": {
+        "sv": "Söndag",
+        "en": "Sunday",
+        "pa": "ਐਤਵਾਰ"
+      },
+      "title": {
+        "sv": "Samlingsplats",
+        "en": "Gathering place",
+        "pa": "ਸੰਗਤ ਦਾ ਸਥਾਨ"
+      },
+      "description": {
+        "sv": "Kirtan, Katha, Ardas och gemensam Langar.",
+        "en": "Kirtan, Katha, Ardas, and shared Langar.",
+        "pa": "ਕੀਰਤਨ, ਕਥਾ, ਅਰਦਾਸ ਅਤੇ ਸਾਂਝਾ ਲੰਗਰ।"
+      },
+      "time": {
+        "sv": "Söndagar från kl. 10:00",
+        "en": "Sundays from 10:00",
+        "pa": "ਐਤਵਾਰ ਸਵੇਰੇ 10 ਵਜੇ ਤੋਂ"
+      },
       "link_url": "",
-      "link_label": ""
+      "link_label": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      }
     },
     {
-      "day": "Söndagar",
-      "title": "Hemspråksundervisning för barn 6-16 år",
-      "description": "Punjabiundervisning för barn och ungdomar i en trygg och lärorik miljö.",
-      "time": "På söndagar",
+      "day": {
+        "sv": "Söndagar",
+        "en": "Sundays",
+        "pa": "ਐਤਵਾਰ"
+      },
+      "title": {
+        "sv": "Hemspråksundervisning för barn 6-16 år",
+        "en": "Mother tongue classes for children ages 6-16",
+        "pa": "ਬੱਚਿਆਂ 6-16 ਸਾਲ ਲਈ ਮਾਤ੍ਰ-ਭਾਸ਼ਾ ਕਲਾਸਾਂ"
+      },
+      "description": {
+        "sv": "Punjabiundervisning för barn och ungdomar i en trygg och lärorik miljö.",
+        "en": "Punjabi language teaching for children and youth in a safe and supportive environment.",
+        "pa": "ਬੱਚਿਆਂ ਅਤੇ ਯੁਵਾਂ ਲਈ ਸੁਰੱਖਿਅਤ ਅਤੇ ਹੌਸਲਾ-ਅਫ਼ਜ਼ਾਈ ਮਾਹੌਲ ਵਿੱਚ ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਦੀ ਪੜ੍ਹਾਈ।"
+      },
+      "time": {
+        "sv": "På söndagar",
+        "en": "On Sundays",
+        "pa": "ਐਤਵਾਰ ਨੂੰ"
+      },
       "link_url": "",
-      "link_label": ""
+      "link_label": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      }
     },
     {
-      "day": "Söndagar",
-      "title": "Kirtan- och musikundervisning",
-      "description": "Undervisning i kirtan och musik för barn och ungdomar som vill lära sig och delta.",
-      "time": "På söndagar",
+      "day": {
+        "sv": "Söndagar",
+        "en": "Sundays",
+        "pa": "ਐਤਵਾਰ"
+      },
+      "title": {
+        "sv": "Kirtan- och musikundervisning",
+        "en": "Kirtan and music classes",
+        "pa": "ਕੀਰਤਨ ਅਤੇ ਸੰਗੀਤ ਕਲਾਸਾਂ"
+      },
+      "description": {
+        "sv": "Undervisning i kirtan och musik för barn och ungdomar som vill lära sig och delta.",
+        "en": "Teaching in kirtan and music for children and youth who want to learn and participate.",
+        "pa": "ਉਹ ਬੱਚਿਆਂ ਅਤੇ ਯੁਵਾਂ ਲਈ ਕੀਰਤਨ ਅਤੇ ਸੰਗੀਤ ਦੀ ਪੜ੍ਹਾਈ ਜੋ ਸਿੱਖਣਾ ਅਤੇ ਭਾਗ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹਨ।"
+      },
+      "time": {
+        "sv": "På söndagar",
+        "en": "On Sundays",
+        "pa": "ਐਤਵਾਰ ਨੂੰ"
+      },
       "link_url": "",
-      "link_label": ""
+      "link_label": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      }
     },
     {
-      "day": "Dagligen",
-      "title": "Hukamnama",
-      "description": "Dagens budskap från Guru Granth Sahib Ji.",
-      "time": "00:01",
+      "day": {
+        "sv": "Dagligen",
+        "en": "Daily",
+        "pa": "ਹਰ ਰੋਜ਼"
+      },
+      "title": {
+        "sv": "Hukamnama",
+        "en": "Hukamnama",
+        "pa": "ਹੁਕਮਨਾਮਾ"
+      },
+      "description": {
+        "sv": "Dagens budskap från Guru Granth Sahib Ji.",
+        "en": "The day's guidance from Guru Granth Sahib Ji.",
+        "pa": "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਤੋਂ ਦਿਨ ਦਾ ਸੰਦੇਸ਼।"
+      },
+      "time": {
+        "sv": "00:01",
+        "en": "00:01",
+        "pa": "00:01"
+      },
       "link_url": "",
-      "link_label": ""
+      "link_label": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      }
     },
     {
-      "day": "Efter behov",
-      "title": "Familjeceremonier",
-      "description": "Kontakta oss för Ardas, Akhand Path eller särskilda böner.",
-      "time": "",
+      "day": {
+        "sv": "Efter behov",
+        "en": "As needed",
+        "pa": "ਜ਼ਰੂਰਤ ਅਨੁਸਾਰ"
+      },
+      "title": {
+        "sv": "Familjeceremonier",
+        "en": "Family ceremonies",
+        "pa": "ਪਰਿਵਾਰਕ ਸਮਾਗਮ"
+      },
+      "description": {
+        "sv": "Kontakta oss för Ardas, Akhand Path eller särskilda böner.",
+        "en": "Contact us for Ardas, Akhand Path, or special prayers.",
+        "pa": "ਅਰਦਾਸ, ਅਖੰਡ ਪਾਠ ਜਾਂ ਖਾਸ ਅਰਦਾਸਾਂ ਲਈ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+      },
+      "time": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      },
       "link_url": "#contact",
-      "link_label": "Kontakta oss"
+      "link_label": {
+        "sv": "Kontakta oss",
+        "en": "Contact us",
+        "pa": "ਸੰਪਰਕ ਕਰੋ"
+      }
     }
   ]
 }

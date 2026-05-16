@@ -1,24 +1,72 @@
 {
   "items": [
     {
-      "meta": "Lägg till datum och fil när protokollet är klart",
-      "title": "Styrelsemötesprotokoll",
-      "summary": "Byt ut den här texten mot en kort sammanfattning och länka det färdiga dokumentet här.",
-      "link_label": "Lägg till dokumentlänk",
+      "meta": {
+        "sv": "Lägg till datum och fil när protokollet är klart",
+        "en": "Add date and file when the protocol is ready",
+        "pa": "ਜਦੋਂ ਪ੍ਰੋਟੋਕੋਲ ਤਿਆਰ ਹੋ ਜਾਵੇ ਤਾਂ ਤਾਰੀਖ ਅਤੇ ਫ਼ਾਈਲ ਜੋੜੋ"
+      },
+      "title": {
+        "sv": "Styrelsemötesprotokoll",
+        "en": "Board meeting protocol",
+        "pa": "ਸਟੀਅਰਿੰਗ ਮੀਟਿੰਗ ਦਾ ਪ੍ਰੋਟੋਕੋਲ"
+      },
+      "summary": {
+        "sv": "Byt ut den här texten mot en kort sammanfattning och länka det färdiga dokumentet här.",
+        "en": "Replace this text with a short summary and link the finished document here.",
+        "pa": "ਇਸ ਲੇਖ ਨੂੰ ਛੋਟੇ ਸਾਰ ਨਾਲ ਬਦਲੋ ਅਤੇ ਤਿਆਰ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਇੱਥੇ ਲਿੰਕ ਕਰੋ।"
+      },
+      "link_label": {
+        "sv": "Lägg till dokumentlänk",
+        "en": "Add document link",
+        "pa": "ਦਸਤਾਵੇਜ਼ ਲਿੰਕ ਜੋੜੋ"
+      },
       "file": ""
     },
     {
-      "meta": "Dagordning, beslut och signerat protokoll",
-      "title": "Årsmötesdokument",
-      "summary": "Använd det här kortet för årsmötesmaterial och samlade bilagor.",
-      "link_label": "Öppna dokument",
+      "meta": {
+        "sv": "Dagordning, beslut och signerat protokoll",
+        "en": "Agenda, decisions, and signed protocol",
+        "pa": "ਅਜੈਂਡਾ, ਫ਼ੈਸਲੇ ਅਤੇ ਹਸਤਾਖ਼ਰਿਤ ਪ੍ਰੋਟੋਕੋਲ"
+      },
+      "title": {
+        "sv": "Årsmötesdokument",
+        "en": "Annual meeting documents",
+        "pa": "ਸਾਲਾਨਾ ਸਭਾ ਦੇ ਦਸਤਾਵੇਜ਼"
+      },
+      "summary": {
+        "sv": "Använd det här kortet för årsmötesmaterial och samlade bilagor.",
+        "en": "Use this card for annual meeting material and collected attachments.",
+        "pa": "ਸਾਲਾਨਾ ਸਭਾ ਦੇ ਮਟੀਰੀਅਲ ਅਤੇ ਨਾਲ ਜੁੜੇ ਦਸਤਾਵੇਜ਼ ਇਸ ਕਾਰਡ ਵਿੱਚ ਰੱਖੋ।"
+      },
+      "link_label": {
+        "sv": "Öppna dokument",
+        "en": "Open documents",
+        "pa": "ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ"
+      },
       "file": ""
     },
     {
-      "meta": "Policyer, meddelanden och delad information",
-      "title": "Övriga viktiga dokument",
-      "summary": "Den här ytan kan även användas för utskick och dokument som sangaten enkelt ska kunna hitta.",
-      "link_label": "Visa mer",
+      "meta": {
+        "sv": "Policyer, meddelanden och delad information",
+        "en": "Policies, notices, and shared information",
+        "pa": "ਨੀਤੀਆਂ, ਸੂਚਨਾਵਾਂ ਅਤੇ ਸਾਂਝੀ ਜਾਣਕਾਰੀ"
+      },
+      "title": {
+        "sv": "Övriga viktiga dokument",
+        "en": "Other important documents",
+        "pa": "ਹੋਰ ਮਹੱਤਵਪੂਰਨ ਦਸਤਾਵੇਜ਼"
+      },
+      "summary": {
+        "sv": "Den här ytan kan även användas för utskick och dokument som sangaten enkelt ska kunna hitta.",
+        "en": "This area can also be used for notices and documents the sangat should be able to find easily.",
+        "pa": "ਇਹ ਜਗ੍ਹਾ ਉਹਨਾਂ ਦਸਤਾਵੇਜ਼ਾਂ ਲਈ ਵੀ ਹੈ ਜੋ ਸੰਗਤ ਲਈ ਆਸਾਨੀ ਨਾਲ ਮਿਲਣੇ ਚਾਹੀਦੇ ਹਨ।"
+      },
+      "link_label": {
+        "sv": "Visa mer",
+        "en": "View more",
+        "pa": "ਹੋਰ ਵੇਖੋ"
+      },
       "file": ""
     }
   ]

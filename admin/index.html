@@ -1,11 +1,52 @@
 <!doctype html>
-<html>
+<html lang="sv">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gurdwara Admin</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Manrope, Arial, sans-serif;
+      background: linear-gradient(180deg, #fbf4e8 0%, #fffdf7 100%);
+      color: #24170f;
+    }
+
+    .loading {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .loading-card {
+      max-width: 560px;
+      padding: 28px;
+      border-radius: 24px;
+      background: rgba(255, 251, 244, 0.92);
+      border: 1px solid rgba(83, 52, 28, 0.14);
+      box-shadow: 0 24px 70px rgba(52, 30, 11, 0.14);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
+  <div class="loading">
+    <div class="loading-card">
+      <h1>Gurdwara Admin</h1>
+      <p>Här kan administratören uppdatera program, aktiviteter och protokoll utan att ändra kod.</p>
+    </div>
+  </div>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
