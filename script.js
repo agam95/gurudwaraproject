@@ -28,7 +28,7 @@ const translations = {
     hero_card_time: "10:00 - 14:00",
     hero_card_address: "Stockholm, Sweden",
     info_hukamnama_title: "Hukamnama",
-    info_hukamnama_text: "New daily at 00:01",
+    info_hukamnama_text: "New daily",
     info_langar_title: "Langar",
     info_langar_text: "Free for everyone",
     info_seva_title: "Seva",
@@ -63,8 +63,9 @@ const translations = {
     protocols_preview_link: "Open protocols",
     hukamnama_gurmukhi: "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ",
     hukamnama_title: "Today's Hukamnama",
+    hukamnama_kicker: "A short daily reflection inspired by today's Hukamnama.",
     hukamnama_quote: "\"Let the heart rest in gratitude, humility, and the courage to serve others.\"",
-    hukamnama_text: "A new Hukamnama reflection appears every day at 00:01. Read the full paath and translation on the external page.",
+    hukamnama_text: "A new Hukamnama reflection appears every day. Read the full paath and translation on the external page.",
     hukamnama_cta: "Read more",
     seva_eyebrow: "Join In",
     seva_title: "Three simple ways to help",
@@ -132,7 +133,7 @@ const translations = {
     hero_card_time: "10:00 - 14:00",
     hero_card_address: "ਸਟਾਕਹੋਮ, ਸਵੀਡਨ",
     info_hukamnama_title: "ਹੁਕਮਨਾਮਾ",
-    info_hukamnama_text: "ਹਰ ਰੋਜ਼ 00:01 ਵਜੇ",
+    info_hukamnama_text: "ਹਰ ਰੋਜ਼",
     info_langar_title: "ਲੰਗਰ",
     info_langar_text: "ਹਰ ਕਿਸੇ ਲਈ ਮੁਫਤ",
     info_seva_title: "ਸੇਵਾ",
@@ -167,8 +168,9 @@ const translations = {
     protocols_preview_link: "ਪ੍ਰੋਟੋਕੋਲ ਖੋਲ੍ਹੋ",
     hukamnama_gurmukhi: "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ",
     hukamnama_title: "ਅੱਜ ਦਾ ਹੁਕਮਨਾਮਾ",
+    hukamnama_kicker: "ਅੱਜ ਦੇ ਹੁਕਮਨਾਮੇ ਤੋਂ ਪ੍ਰੇਰਿਤ ਇੱਕ ਛੋਟੀ ਦਿਨਚਰੀ ਚਿੰਤਨ।",
     hukamnama_quote: "\"ਦਿਲ ਨੂੰ ਸ਼ੁਕਰਾਨਾ, ਨਿਮਰਤਾ ਅਤੇ ਦੂਜਿਆਂ ਦੀ ਸੇਵਾ ਕਰਨ ਦੇ ਹੌਸਲੇ ਵਿੱਚ ਟਿਕਣ ਦਿਓ।\"",
-    hukamnama_text: "ਹਰ ਰੋਜ਼ 00:01 ਵਜੇ ਨਵੀਂ ਹੁਕਮਨਾਮਾ-ਚਿੰਤਨ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ। ਪੂਰਾ ਪਾਠ ਅਤੇ ਅਨੁਵਾਦ ਬਾਹਰੀ ਸਫ਼ੇ 'ਤੇ ਪੜ੍ਹੋ।",
+    hukamnama_text: "ਹਰ ਰੋਜ਼ ਨਵੀਂ ਹੁਕਮਨਾਮਾ-ਚਿੰਤਨ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ। ਪੂਰਾ ਪਾਠ ਅਤੇ ਅਨੁਵਾਦ ਬਾਹਰੀ ਸਫ਼ੇ 'ਤੇ ਪੜ੍ਹੋ।",
     hukamnama_cta: "ਹੋਰ ਪੜ੍ਹੋ",
     seva_eyebrow: "ਹਿੱਸਾ ਲਓ",
     seva_title: "ਮਦਦ ਕਰਨ ਦੇ ਤਿੰਨ ਸੌਖੇ ਤਰੀਕੇ",
@@ -215,7 +217,7 @@ const fallbackContent = {
       { day: "Söndag", title: "Samlingsplats", description: "Kirtan, Katha, Ardas och gemensam Langar.", time: "Söndagar från kl. 10:00", link_url: "", link_label: "" },
       { day: "Söndagar", title: "Hemspråksundervisning för barn 6-16 år", description: "Punjabiundervisning för barn och ungdomar i en trygg och lärorik miljö.", time: "På söndagar", link_url: "", link_label: "" },
       { day: "Söndagar", title: "Kirtan- och musikundervisning", description: "Undervisning i kirtan och musik för barn och ungdomar som vill lära sig och delta.", time: "På söndagar", link_url: "", link_label: "" },
-      { day: "Dagligen", title: "Hukamnama", description: "Dagens budskap från Guru Granth Sahib Ji.", time: "00:01", link_url: "", link_label: "" },
+      { day: "Dagligen", title: "Hukamnama", description: "Dagens budskap från Guru Granth Sahib Ji.", time: "", link_url: "", link_label: "" },
       { day: "Efter behov", title: "Familjeceremonier", description: "Kontakta oss för Ardas, Akhand Path eller särskilda böner.", time: "", link_url: "#contact", link_label: "Kontakta oss" }
     ],
     documents: [
@@ -243,7 +245,8 @@ const fallbackContent = {
       { day: "Sunday", title: "Gathering place", description: "Kirtan, Katha, Ardas, and shared Langar.", time: "Sundays from 10:00", link_url: "", link_label: "" },
       { day: "Sundays", title: "Mother tongue classes for children ages 6-16", description: "Punjabi language teaching for children and youth in a safe and supportive environment.", time: "On Sundays", link_url: "", link_label: "" },
       { day: "Sundays", title: "Kirtan and music classes", description: "Teaching in kirtan and music for children and youth who want to learn and participate.", time: "On Sundays", link_url: "", link_label: "" },
-      { day: "Daily", title: "Hukamnama", description: "The day's guidance from Guru Granth Sahib Ji.", time: "00:01", link_url: "", link_label: "" },
+      { day: "June 19-21, 2026", title: "Shaheedi Diwas Guru Arjan Dev Ji Akhand Path", description: "Special observance in memory of Guru Arjan Dev Ji with Akhand Path and sangat gathering.", time: "", link_url: "", link_label: "" },
+      { day: "Daily", title: "Hukamnama", description: "The day's guidance from Guru Granth Sahib Ji.", time: "", link_url: "", link_label: "" },
       { day: "As needed", title: "Family ceremonies", description: "Contact us for Ardas, Akhand Path, or special prayers.", time: "", link_url: "#contact", link_label: "Contact us" }
     ],
     documents: [
@@ -271,7 +274,8 @@ const fallbackContent = {
       { day: "ਐਤਵਾਰ", title: "ਸੰਗਤ ਦਾ ਸਥਾਨ", description: "ਕੀਰਤਨ, ਕਥਾ, ਅਰਦਾਸ ਅਤੇ ਸਾਂਝਾ ਲੰਗਰ।", time: "ਐਤਵਾਰ ਸਵੇਰੇ 10 ਵਜੇ ਤੋਂ", link_url: "", link_label: "" },
       { day: "ਐਤਵਾਰ", title: "ਬੱਚਿਆਂ 6-16 ਸਾਲ ਲਈ ਮਾਤ੍ਰ-ਭਾਸ਼ਾ ਕਲਾਸਾਂ", description: "ਬੱਚਿਆਂ ਅਤੇ ਯੁਵਾਂ ਲਈ ਸੁਰੱਖਿਅਤ ਅਤੇ ਹੌਸਲਾ-ਅਫ਼ਜ਼ਾਈ ਮਾਹੌਲ ਵਿੱਚ ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਦੀ ਪੜ੍ਹਾਈ।", time: "ਐਤਵਾਰ ਨੂੰ", link_url: "", link_label: "" },
       { day: "ਐਤਵਾਰ", title: "ਕੀਰਤਨ ਅਤੇ ਸੰਗੀਤ ਕਲਾਸਾਂ", description: "ਉਹ ਬੱਚਿਆਂ ਅਤੇ ਯੁਵਾਂ ਲਈ ਕੀਰਤਨ ਅਤੇ ਸੰਗੀਤ ਦੀ ਪੜ੍ਹਾਈ ਜੋ ਸਿੱਖਣਾ ਅਤੇ ਭਾਗ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹਨ।", time: "ਐਤਵਾਰ ਨੂੰ", link_url: "", link_label: "" },
-      { day: "ਹਰ ਰੋਜ਼", title: "ਹੁਕਮਨਾਮਾ", description: "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਤੋਂ ਦਿਨ ਦਾ ਸੰਦੇਸ਼।", time: "00:01", link_url: "", link_label: "" },
+      { day: "19-21 ਜੂਨ 2026", title: "ਸ਼ਹੀਦੀ ਦਿਵਸ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਅਖੰਡ ਪਾਠ", description: "ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਦੀ ਯਾਦ ਵਿੱਚ ਅਖੰਡ ਪਾਠ ਅਤੇ ਸੰਗਤ ਸਮਾਗਮ ਨਾਲ ਵਿਸ਼ੇਸ਼ ਪ੍ਰੋਗਰਾਮ।", time: "", link_url: "", link_label: "" },
+      { day: "ਹਰ ਰੋਜ਼", title: "ਹੁਕਮਨਾਮਾ", description: "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਤੋਂ ਦਿਨ ਦਾ ਸੰਦੇਸ਼।", time: "", link_url: "", link_label: "" },
       { day: "ਜ਼ਰੂਰਤ ਅਨੁਸਾਰ", title: "ਪਰਿਵਾਰਕ ਸਮਾਗਮ", description: "ਅਰਦਾਸ, ਅਖੰਡ ਪਾਠ ਜਾਂ ਖਾਸ ਅਰਦਾਸਾਂ ਲਈ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।", time: "", link_url: "#contact", link_label: "ਸੰਪਰਕ ਕਰੋ" }
     ],
     documents: [
@@ -349,17 +353,20 @@ const getDayOfYear = (date) => {
   return Math.floor((date - startOfYear) / millisecondsPerDay);
 };
 
-const getHukamnamaRotationDate = () => {
-  const rotationDate = new Date();
-  rotationDate.setMinutes(rotationDate.getMinutes() - 1);
-  return rotationDate;
-};
+const getHukamnamaDateKey = (date = new Date()) => [
+  date.getFullYear(),
+  String(date.getMonth() + 1).padStart(2, "0"),
+  String(date.getDate()).padStart(2, "0")
+].join("-");
+
+let activeHukamnamaDateKey = "";
 
 const applyDailyHukamnama = (lang) => {
   const selectedLanguage = getSelectedLanguage(lang);
   const entries = fallbackContent[selectedLanguage].hukamnama || fallbackContent.sv.hukamnama;
-  const rotationDate = getHukamnamaRotationDate();
-  const entryIndex = getDayOfYear(rotationDate) % entries.length;
+  const today = new Date();
+  activeHukamnamaDateKey = getHukamnamaDateKey(today);
+  const entryIndex = getDayOfYear(today) % entries.length;
   const currentEntry = entries[entryIndex];
 
   if (hukamnamaQuoteNode && currentEntry?.quote) {
@@ -384,7 +391,7 @@ const scheduleDailyHukamnamaRefresh = () => {
 
   const now = new Date();
   const nextRefresh = new Date(now);
-  nextRefresh.setHours(0, 1, 0, 0);
+  nextRefresh.setHours(0, 0, 1, 0);
 
   if (now >= nextRefresh) {
     nextRefresh.setDate(nextRefresh.getDate() + 1);
@@ -394,6 +401,14 @@ const scheduleDailyHukamnamaRefresh = () => {
     applyDailyHukamnama(document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv");
     scheduleDailyHukamnamaRefresh();
   }, (nextRefresh.getTime() - now.getTime()) + 100);
+};
+
+const syncDailyHukamnamaIfNeeded = () => {
+  const currentDateKey = getHukamnamaDateKey();
+  if (currentDateKey !== activeHukamnamaDateKey) {
+    applyDailyHukamnama(document.documentElement.lang || localStorage.getItem("preferredLanguage") || "sv");
+    scheduleDailyHukamnamaRefresh();
+  }
 };
 
 const normalizeItem = (item, fields) => {
@@ -653,5 +668,12 @@ if (backToTop) {
 }
 
 setLanguage(localStorage.getItem("preferredLanguage") || "sv");
+window.addEventListener("focus", syncDailyHukamnamaIfNeeded);
+window.addEventListener("pageshow", syncDailyHukamnamaIfNeeded);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) {
+    syncDailyHukamnamaIfNeeded();
+  }
+});
 scheduleDailyHukamnamaRefresh();
 loadEditableContent();

@@ -4,12 +4,12 @@
       "meta": {
         "sv": "Lägg till datum och fil när protokollet är klart",
         "en": "Add date and file when the protocol is ready",
-        "pa": "ਜਦੋਂ ਪ੍ਰੋਟੋਕੋਲ ਤਿਆਰ ਹੋ ਜਾਵੇ ਤਾਂ ਤਾਰੀਖ ਅਤੇ ਫ਼ਾਈਲ ਜੋੜੋ"
+        "pa": "ਜਦੋਂ ਪ੍ਰੋਟੋਕੋਲ ਤਿਆਰ ਹੋ ਜਾਵੇ ਤਾਂ ਤਾਰੀਖ ਅਤੇ ਫਾਈਲ ਜੋੜੋ"
       },
       "title": {
         "sv": "Styrelsemötesprotokoll",
         "en": "Board meeting protocol",
-        "pa": "ਸਟੀਅਰਿੰਗ ਮੀਟਿੰਗ ਦਾ ਪ੍ਰੋਟੋਕੋਲ"
+        "pa": "ਸਟੀਆਰਿੰਗ ਮੀਟਿੰਗ ਦਾ ਪ੍ਰੋਟੋਕੋਲ"
       },
       "summary": {
         "sv": "Byt ut den här texten mot en kort sammanfattning och länka det färdiga dokumentet här.",
@@ -25,26 +25,26 @@
     },
     {
       "meta": {
-        "sv": "Dagordning, beslut och signerat protokoll",
-        "en": "Agenda, decisions, and signed protocol",
-        "pa": "ਅਜੈਂਡਾ, ਫ਼ੈਸਲੇ ਅਤੇ ਹਸਤਾਖ਼ਰਿਤ ਪ੍ਰੋਟੋਕੋਲ"
+        "sv": "Årsmöte 2026-05-19",
+        "en": "Annual meeting 2026-05-19",
+        "pa": "ਸਾਲਾਨਾ ਸਭਾ 2026-05-19"
       },
       "title": {
-        "sv": "Årsmötesdokument",
-        "en": "Annual meeting documents",
-        "pa": "ਸਾਲਾਨਾ ਸਭਾ ਦੇ ਦਸਤਾਵੇਜ਼"
+        "sv": "Årsmötesprotokoll",
+        "en": "Annual meeting protocol",
+        "pa": "ਸਾਲਾਨਾ ਸਭਾ ਦਾ ਪ੍ਰੋਟੋਕੋਲ"
       },
       "summary": {
-        "sv": "Använd det här kortet för årsmötesmaterial och samlade bilagor.",
-        "en": "Use this card for annual meeting material and collected attachments.",
-        "pa": "ਸਾਲਾਨਾ ਸਭਾ ਦੇ ਮਟੀਰੀਅਲ ਅਤੇ ਨਾਲ ਜੁੜੇ ਦਸਤਾਵੇਜ਼ ਇਸ ਕਾਰਡ ਵਿੱਚ ਰੱਖੋ।"
+        "sv": "Årsmötesprotokoll uppladdat som PDF för enkel åtkomst från protokollsidan.",
+        "en": "Annual meeting protocol uploaded as a PDF for easy access from the protocols page.",
+        "pa": "ਪ੍ਰੋਟੋਕੋਲ ਸਫੇ ਤੋਂ ਆਸਾਨ ਪਹੁੰਚ ਲਈ ਸਾਲਾਨਾ ਸਭਾ ਦਾ ਪ੍ਰੋਟੋਕੋਲ PDF ਵਜੋਂ ਅਪਲੋਡ ਕੀਤਾ ਗਿਆ ਹੈ।"
       },
       "link_label": {
-        "sv": "Öppna dokument",
-        "en": "Open documents",
-        "pa": "ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ"
+        "sv": "Öppna protokoll",
+        "en": "Open protocol",
+        "pa": "ਪ੍ਰੋਟੋਕੋਲ ਖੋਲ੍ਹੋ"
       },
-      "file": ""
+      "file": "protokoll/arsmote-protokoll-2026-05-19.pdf"
     },
     {
       "meta": {
