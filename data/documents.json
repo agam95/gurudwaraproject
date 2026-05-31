@@ -2,72 +2,72 @@
   "items": [
     {
       "meta": {
-        "sv": "Lägg till datum och fil när protokollet är klart",
-        "en": "Add date and file when the protocol is ready",
-        "pa": "ਜਦੋਂ ਪ੍ਰੋਟੋਕੋਲ ਤਿਆਰ ਹੋ ਜਾਵੇ ਤਾਂ ਤਾਰੀਖ ਅਤੇ ਫਾਈਲ ਜੋੜੋ"
+        "sv": "2026-04-08",
+        "en": "2026-04-08",
+        "pa": "2026-04-08"
       },
       "title": {
-        "sv": "Styrelsemötesprotokoll",
-        "en": "Board meeting protocol",
-        "pa": "ਸਟੀਆਰਿੰਗ ਮੀਟਿੰਗ ਦਾ ਪ੍ਰੋਟੋਕੋਲ"
+        "sv": "Styrelsemöte",
+        "en": "Board meeting",
+        "pa": "ਸਟਾਇਰਲਸਮੋਤੇ"
       },
       "summary": {
-        "sv": "Byt ut den här texten mot en kort sammanfattning och länka det färdiga dokumentet här.",
-        "en": "Replace this text with a short summary and link the finished document here.",
-        "pa": "ਇਸ ਲੇਖ ਨੂੰ ਛੋਟੇ ਸਾਰ ਨਾਲ ਬਦਲੋ ਅਤੇ ਤਿਆਰ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਇੱਥੇ ਲਿੰਕ ਕਰੋ।"
+        "sv": "Öppna PDF-filen för att läsa styrelsemötets protokoll från 2026-04-08.",
+        "en": "Open the PDF file to read the board meeting protocol from 2026-04-08.",
+        "pa": "2026-04-08 ਦੇ ਸਟਾਇਰਲਸਮੋਤੇ ਦਾ ਪ੍ਰੋਟੋਕੋਲ ਪੜ੍ਹਣ ਲਈ PDF ਫਾਈਲ ਖੋਲ੍ਹੋ।"
       },
       "link_label": {
-        "sv": "Lägg till dokumentlänk",
-        "en": "Add document link",
-        "pa": "ਦਸਤਾਵੇਜ਼ ਲਿੰਕ ਜੋੜੋ"
+        "sv": "Öppna PDF",
+        "en": "Open PDF",
+        "pa": "PDF ਖੋਲ੍ਹੋ"
       },
-      "file": ""
+      "file": "protokoll/protokoll-2026-04-08.pdf"
     },
     {
       "meta": {
-        "sv": "Årsmöte 2026-05-19",
-        "en": "Annual meeting 2026-05-19",
-        "pa": "ਸਾਲਾਨਾ ਸਭਾ 2026-05-19"
+        "sv": "2026-02-06",
+        "en": "2026-02-06",
+        "pa": "2026-02-06"
       },
       "title": {
-        "sv": "Årsmötesprotokoll",
-        "en": "Annual meeting protocol",
-        "pa": "ਸਾਲਾਨਾ ਸਭਾ ਦਾ ਪ੍ਰੋਟੋਕੋਲ"
+        "sv": "Styrelsemöte",
+        "en": "Board meeting",
+        "pa": "ਸਟਾਇਰਲਸਮੋਤੇ"
       },
       "summary": {
-        "sv": "Årsmötesprotokoll uppladdat som PDF för enkel åtkomst från protokollsidan.",
-        "en": "Annual meeting protocol uploaded as a PDF for easy access from the protocols page.",
-        "pa": "ਪ੍ਰੋਟੋਕੋਲ ਸਫੇ ਤੋਂ ਆਸਾਨ ਪਹੁੰਚ ਲਈ ਸਾਲਾਨਾ ਸਭਾ ਦਾ ਪ੍ਰੋਟੋਕੋਲ PDF ਵਜੋਂ ਅਪਲੋਡ ਕੀਤਾ ਗਿਆ ਹੈ।"
+        "sv": "Öppna PDF-filen för att läsa styrelsemötets protokoll från 2026-02-06.",
+        "en": "Open the PDF file to read the board meeting protocol from 2026-02-06.",
+        "pa": "2026-02-06 ਦੇ ਸਟਾਇਰਲਸਮੋਤੇ ਦਾ ਪ੍ਰੋਟੋਕੋਲ ਪੜ੍ਹਣ ਲਈ PDF ਫਾਈਲ ਖੋਲ੍ਹੋ।"
       },
       "link_label": {
-        "sv": "Öppna protokoll",
-        "en": "Open protocol",
-        "pa": "ਪ੍ਰੋਟੋਕੋਲ ਖੋਲ੍ਹੋ"
+        "sv": "Öppna PDF",
+        "en": "Open PDF",
+        "pa": "PDF ਖੋਲ੍ਹੋ"
+      },
+      "file": "protokoll/protokoll-2026-02-06.pdf"
+    },
+    {
+      "meta": {
+        "sv": "2025-12-28",
+        "en": "2025-12-28",
+        "pa": "2025-12-28"
+      },
+      "title": {
+        "sv": "Styrelsemöte",
+        "en": "Board meeting",
+        "pa": "ਸਟਾਇਰਲਸਮੋਤੇ"
+      },
+      "summary": {
+        "sv": "Öppna PDF-filen för att läsa styrelsemötets protokoll från 2025-12-28.",
+        "en": "Open the PDF file to read the board meeting protocol from 2025-12-28.",
+        "pa": "2025-12-28 ਦੇ ਸਟਾਇਰਲਸਮੋਤੇ ਦਾ ਪ੍ਰੋਟੋਕੋਲ ਪੜ੍ਹਣ ਲਈ PDF ਫਾਈਲ ਖੋਲ੍ਹੋ।"
+      },
+      "link_label": {
+        "sv": "Öppna PDF",
+        "en": "Open PDF",
+        "pa": "PDF ਖੋਲ੍ਹੋ"
       },
       "file": "protokoll/arsmote-protokoll-2026-05-19.pdf"
-    },
-    {
-      "meta": {
-        "sv": "Policyer, meddelanden och delad information",
-        "en": "Policies, notices, and shared information",
-        "pa": "ਨੀਤੀਆਂ, ਸੂਚਨਾਵਾਂ ਅਤੇ ਸਾਂਝੀ ਜਾਣਕਾਰੀ"
-      },
-      "title": {
-        "sv": "Övriga viktiga dokument",
-        "en": "Other important documents",
-        "pa": "ਹੋਰ ਮਹੱਤਵਪੂਰਨ ਦਸਤਾਵੇਜ਼"
-      },
-      "summary": {
-        "sv": "Den här ytan kan även användas för utskick och dokument som sangaten enkelt ska kunna hitta.",
-        "en": "This area can also be used for notices and documents the sangat should be able to find easily.",
-        "pa": "ਇਹ ਜਗ੍ਹਾ ਉਹਨਾਂ ਦਸਤਾਵੇਜ਼ਾਂ ਲਈ ਵੀ ਹੈ ਜੋ ਸੰਗਤ ਲਈ ਆਸਾਨੀ ਨਾਲ ਮਿਲਣੇ ਚਾਹੀਦੇ ਹਨ।"
-      },
-      "link_label": {
-        "sv": "Visa mer",
-        "en": "View more",
-        "pa": "ਹੋਰ ਵੇਖੋ"
-      },
-      "file": ""
     }
   ]
 }
