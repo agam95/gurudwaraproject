@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: agam95/gurudwaraproject
+  name: git-gateway
   branch: main
 
 local_backend: true

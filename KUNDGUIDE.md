@@ -1,77 +1,85 @@
 # Kundguide
 
-Den här hemsidan är nu förberedd för att kunden ska kunna uppdatera innehåll via en adminpanel i stället för att ändra kod.
+Den har hemsidan ar forberedd for att kunden ska kunna uppdatera innehall via en adminpanel i stallet for att andra kod.
 
-## Vad kunden kan ändra
+## Vad kunden kan andra
 
 - Program och aktiviteter
 - Protokoll och andra dokument
-- Svenska, engelska och punjabi för varje programkort och dokumentkort
+- Svenska, engelska och punjabi for varje programkort och dokumentkort
 - Uppladdade filer till protokollsektionen
 
 ## Var adminpanelen finns
 
-- Admin-sidan ligger på `/admin`
-- Exempel: `https://din-domän.se/admin`
+- Admin-sidan ligger pa `/admin`
+- Exempel: `https://din-doman.se/admin`
 
-## Hur kunden använder adminpanelen
+## Hur kunden anvander adminpanelen
 
-1. Gå till `/admin`
+1. Ga till `/admin`
 2. Logga in
-3. Välj `Program och aktiviteter` eller `Protokoll`
-4. Lägg till, ändra eller ta bort poster
-5. Spara ändringen
-6. Publicera ändringen
+3. Valj `Program och aktiviteter` eller `Protokoll`
+4. Lagg till, andra eller ta bort poster
+5. Spara andringen
+6. Publicera andringen
 
-## Hur innehållet är kopplat
+## Hur innehallet ar kopplat
 
 - [data/programs.json](C:/Users/agams/OneDrive/Skrivbord/gurdwara-site/data/programs.json) styr sektionen `Program och aktiviteter`
 - [data/documents.json](C:/Users/agams/OneDrive/Skrivbord/gurdwara-site/data/documents.json) styr sidan `Protokoll`
-- [admin/config.yml](C:/Users/agams/OneDrive/Skrivbord/gurdwara-site/admin/config.yml) styr fälten i adminpanelen
+- [admin/config.yml](C:/Users/agams/OneDrive/Skrivbord/gurdwara-site/admin/config.yml) styr falten i adminpanelen
 - Uppladdade filer sparas i `uploads/`
 
-## Viktigt innan kunden kan logga in på riktigt
+## Nuvarande setup
 
-Adminpanelen finns i projektet, men inloggningen måste kopplas till den publicerade hemsidan.
+Projektet ar nu forberett for `Netlify + Git Gateway`.
 
-Det finns två vanliga sätt:
+- Adminpanelen laddar Netlify Identity-widgeten i [admin/index.html](C:/Users/agams/OneDrive/Skrivbord/gurdwara-site/admin/index.html)
+- CMS-backend ar satt till `git-gateway` i [admin/config.yml](C:/Users/agams/OneDrive/Skrivbord/gurdwara-site/admin/config.yml)
+- Innehall som kunden sparar fortsatter att uppdatera projektets JSON-filer
 
-- `GitHub backend`
-  Då loggar admin in via GitHub/OAuth och sparar ändringar direkt till repot.
+## Viktigt innan kunden kan logga in pa riktigt
 
-- `Netlify + Git Gateway`
-  Det här är oftast enklast för en kund, eftersom kunden kan få en enklare inloggning via Netlify Identity.
+Adminpanelen finns i projektet, men inloggningen maste kopplas till den publicerade hemsidan.
 
-## Min rekommendation
-
-Det enklaste för kundöverlämning är:
+Gor sa har i Netlify:
 
 1. Publicera sidan via Netlify
 2. Aktivera `Identity`
 3. Aktivera `Git Gateway`
-4. Ge kunden länken till `/admin`
-5. Bjud in kunden som adminanvändare
+4. Bjud in kunden som adminanvandare
+5. Ge kunden lank till `/admin`
 
-## Om du vill behålla GitHub-lösningen
+## Viktig notering om Netlify i dag
 
-Nuvarande admin är konfigurerad för GitHub-repot:
+Netlify Docs markerar `Git Gateway` som `deprecated`.
+
+Det betyder:
+
+- det kan fortfarande fungera som en enkel kundinloggning
+- det ar inte den mest framtidssakra losningen for ett nytt projekt
+- om ni vill ha en mer langsiktig setup bor vi senare planera en annan auth-losning
+
+## Om du vill behalla GitHub-losningen
+
+Den tidigare adminlosningen var konfigurerad for GitHub-repot:
 
 - `agam95/gurudwaraproject`
 
-Om du använder GitHub-lösningen behöver du också en fungerande OAuth-lösning för Decap CMS på den publicerade sidan.
+Om du anvander GitHub-losningen behover du ocksa en fungerande OAuth-losning for Decap CMS pa den publicerade sidan.
 
-## Viktigt för innehåll på flera språk
+## Viktigt for innehall pa flera sprak
 
-Varje programkort och dokumentkort har fält för:
+Varje programkort och dokumentkort har falt for:
 
 - `Svenska`
 - `English`
 - `Punjabi`
 
-Om kunden lämnar ett språk tomt försöker sidan visa svensk text som reserv.
+Om kunden lamnar ett sprak tomt forsoker sidan visa svensk text som reserv.
 
 ## Kort sammanfattning
 
-Det tekniska adminstödet är nu inbyggt i projektet.
+Det tekniska adminstodet ar nu inbyggt i projektet.
 
-Det enda som återstår innan kunden kan använda det live är att koppla admininloggningen till den hosting du väljer för den publicerade webbplatsen.
+Det som aterstar ar att koppla admininloggningen till din publicerade Netlify-sajt och bjuda in kunden.

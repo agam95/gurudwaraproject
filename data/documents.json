@@ -2,6 +2,29 @@
   "items": [
     {
       "meta": {
+        "sv": "2026-06-04",
+        "en": "2026-06-04",
+        "pa": "2026-06-04"
+      },
+      "title": {
+        "sv": "Styrelsemote",
+        "en": "Board meeting",
+        "pa": "Board meeting"
+      },
+      "summary": {
+        "sv": "Oppna PDF-filen for att lasa motesprotokollet fran 2026-06-04.",
+        "en": "Open the PDF file to read the meeting protocol from 2026-06-04.",
+        "pa": "Open the PDF file to read the meeting protocol from 2026-06-04."
+      },
+      "link_label": {
+        "sv": "Oppna PDF",
+        "en": "Open PDF",
+        "pa": "Open PDF"
+      },
+      "file": "protokoll/protokoll-2026-06-04.pdf"
+    },
+    {
+      "meta": {
         "sv": "2026-04-08",
         "en": "2026-04-08",
         "pa": "2026-04-08"
