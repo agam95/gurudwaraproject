@@ -812,6 +812,46 @@ blockquote {
 }
 
 @media (max-width: 640px) {
+  .navbar {
+    gap: 12px;
+    padding-inline: 16px;
+  }
+
+  .brand {
+    min-width: 0;
+    gap: 10px;
+  }
+
+  .brand-symbol {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    font-size: 1.3rem;
+  }
+
+  .brand strong {
+    overflow-wrap: anywhere;
+    white-space: normal;
+    font-size: 1.3rem;
+  }
+
+  .brand small {
+    font-size: 0.68rem;
+  }
+
+  .hero-content,
+  .hero-card {
+    min-width: 0;
+  }
+
+  .hero h1 {
+    overflow-wrap: anywhere;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
   .contact-people {
     grid-template-columns: 1fr;
   }
