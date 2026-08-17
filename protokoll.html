@@ -69,5 +69,14 @@
 
   <button class="back-to-top" aria-label="Till toppen" data-i18n-attr="aria-label:back_to_top">↑</button>
   <script src="script.js"></script>
+  <script>
+    // Se kommentaren i index.html - vidarebefordrar Identity-tokens till /admin/.
+    (function () {
+      var tokenPattern = /[#&](invite_token|recovery_token|confirmation_token|email_change_token|error_description)=/;
+      if (tokenPattern.test(window.location.hash)) {
+        window.location.replace("/admin/" + window.location.hash);
+      }
+    })();
+  </script>
 </body>
 </html>

@@ -218,5 +218,16 @@
 
   <button class="back-to-top" aria-label="Till toppen" data-i18n-attr="aria-label:back_to_top">↑</button>
   <script src="script.js"></script>
+  <script>
+    // Netlify Identity skickar invite-, recovery- och bekraftelselankar till sidans rot
+    // med en token i URL-hashen. Identity-widgeten finns bara pa /admin/, sa vi
+    // vidarebefordrar hashen dit sa att anvandaren kan satta sitt losenord.
+    (function () {
+      var tokenPattern = /[#&](invite_token|recovery_token|confirmation_token|email_change_token|error_description)=/;
+      if (tokenPattern.test(window.location.hash)) {
+        window.location.replace("/admin/" + window.location.hash);
+      }
+    })();
+  </script>
 </body>
 </html>
