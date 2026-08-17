@@ -50,6 +50,22 @@ Gor sa har i Netlify:
 4. Bjud in kunden som adminanvandare
 5. Ge kunden lank till `/admin`
 
+## Om felet "You don't have sufficient permissions to access Decap CMS"
+
+`Git Gateway` pa den har sajten ar begransad till rollen `admin`. Meddelandet
+betyder att inloggningen fungerade, men att Identity-kontot saknar den rollen.
+
+Projektet loser det automatiskt via [netlify/functions/identity.mjs](netlify/functions/identity.mjs).
+Funktionen ger varje inbjuden anvandare rollen `admin`, bade nar inbjudan
+accepteras och vid inloggning. Ser du felet redan i dag: logga ut och logga in
+igen efter nasta publicering, sa foljer rollen med i inloggningen.
+
+Du kan ocksa satta rollen manuellt i Netlify under `Identity` > `Users` >
+valj anvandare > `Roles` > lagg till `admin`.
+
+Notera att registrering ar stangd (`invite only`), sa bara personer som du
+bjuder in kan fa ett konto och darmed tillgang till adminpanelen.
+
 ## Viktig notering om Netlify i dag
 
 Netlify Docs markerar `Git Gateway` som `deprecated`.
