@@ -2,6 +2,34 @@
   "items": [
     {
       "day": {
+        "sv": "4-6 september 2026",
+        "en": "September 4-6, 2026",
+        "pa": "4-6 ਸਤੰਬਰ 2026"
+      },
+      "title": {
+        "sv": "Parkash Guru Granth Sahib Ji Akhand Path",
+        "en": "Parkash Guru Granth Sahib Ji Akhand Path",
+        "pa": "ਪ੍ਰਕਾਸ਼ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਅਖੰਡ ਪਾਠ"
+      },
+      "description": {
+        "sv": "Akhand Path med anledning av Parkash Guru Granth Sahib Ji.",
+        "en": "Akhand Path in observance of Parkash Guru Granth Sahib Ji.",
+        "pa": "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਦੇ ਪ੍ਰਕਾਸ਼ ਪੁਰਬ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਅਖੰਡ ਪਾਠ।"
+      },
+      "time": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      },
+      "link_url": "",
+      "link_label": {
+        "sv": "",
+        "en": "",
+        "pa": ""
+      }
+    },
+    {
+      "day": {
         "sv": "Söndag",
         "en": "Sunday",
         "pa": "ਐਤਵਾਰ"
